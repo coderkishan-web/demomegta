@@ -512,7 +512,7 @@ html{
   
   .pagination-button {
     background: linear-gradient(145deg, #941818, #ad0404);
-    color: #fff;
+    color: #fff ;
     border: none;
     padding: 0.75rem 1.25rem;
     font-size: 1rem;
@@ -559,6 +559,8 @@ html{
       background: linear-gradient(145deg, #b82828, #9e2222);
       font-weight: 600;
       box-shadow: 0 4px 12px rgba(158, 34, 34, 0.3);
+      color: rgb(20, 2, 2) !important;
+
     }
   }
   
