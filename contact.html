@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- In your HTML head -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <title>Contact Us</title>
+  
+  </head>
+  <body>
+   <div class="overflow-x-hidden">
+    
+	<nav class="w-full fixed top-0 bg-white flex items-center justify-between px-6 lg:px-28 py-3 border-b border-gray-300 z-50">
+    <!-- Left Section: Logo -->
+    <div class="flex items-center space-x-2">
+        <a href="index.html"><img src="assets/logo.png" alt="Mega-Tech Logo" class="lg:h-14 h-10"></a>
+    </div>
+    
+    <!-- Center Section: Links (default for desktop) -->
+    <ul class="hidden md:flex space-x-10 text-lg font-medium text-black">
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div>
+        <a href="" class="pagination-button hidden md:block" >
+            Get Brochure
+        </a>
+     </div>
+    
+        
+            <!-- Hamburger Icon (visible on mobile/tablet) -->
+            <div class="md:hidden flex items-center cursor-pointer" id="hamburger-icon">
+                <i class="fas fa-bars text-3xl text-black"></i>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden">
+            <div class="w-2/3 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out " id="side-menu">
+                <div class="flex justify-end p-4">
+                    <button id="close-menu" class="text-3xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+              <div class="flex flex-col justify-center items-center gap-10">
+                <ul class="flex flex-col items-center space-y-6 mt-10 text-xl font-medium text-black" id="menu-links">
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+                <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+
+                <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="" class="pagination-button " >
+                    Get Brochure
+                </a>
+                <div class=" flex space-x-4">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook text-2xl transition-transform transform hover:scale-110 hover:text-blue-600"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter text-2xl transition-transform transform hover:scale-110 hover:text-blue-400"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram text-2xl transition-transform transform hover:scale-110 hover:text-pink-600"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+
+    <!-- content  -->
+    <div class="min-h-screen w-full bg-gray-100">
+      <!--About Hero Section Starts -->
+      <section
+        class="relative bg-red-900 text-white md:mt-12 overflow-hidden h-auto lg:h-[40vh] flex items-center mt-12"
+      >
+        <!-- Background Image Layer -->
+        <div
+          class="absolute inset-0 bg-[url('assets/megatech.jpg')] bg-cover bg-center"
+        ></div>
+
+        <!-- Content Container -->
+        <div
+          class="relative container mx-auto py-16 px-8 md:px-40 text-center w-full"
+        >
+          <h1 class="text-3xl md:text-5xl font-Playfair">Contact Us</h1>
+        </div>
+
+        <!-- Breadcrumbs -->
+        <nav
+          class="absolute bottom-6 left-8 md:left-40 text-sm md:text-base font-Helvetica"
+        >
+          <ul class="flex items-center space-x-2 md:space-x-4 text-gray-300">
+            <li>
+              <a href="index.html" class="hover:text-white transition-colors"
+                >Home</a
+              >
+            </li>
+            <li>/</li>
+            <li>
+              <a href="contact.html" class="text-white font-medium"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!--About Hero Section Ends -->
+
+         <!-- contact -->
+<section class="py-16 px-48 bg-white">
+  <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-red-800" data-aos="fade-up">CONTACT US</h2>
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+          <!-- Left Side: Contact Details -->
+          <div class="space-y-6" data-aos="fade-right">
+              <!-- Google Map -->
+              <div class="relative border-2 border-black-300 rounded-lg overflow-hidden shadow-lg">
+                  <!-- <iframe class="w-full h-64" src="https://www.google.com/maps/embed?..." allowfullscreen></iframe> -->                  
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.6969829968866!2d72.87482757536415!3d19.412071241335944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a8b5daa90433%3A0x4b99d482ed7da747!2sSQUARE%20INDUSTRIAL%20PARK!5e1!3m2!1sen!2sin!4v1744097845473!5m2!1sen!2sin" class="w-full h-64"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <div class="absolute bottom-4 left-4 bg-white p-4 rounded-lg shadow-md flex items-center">
+                      <i class="fas fa-map-marker-alt text-red-500 text-xl"></i>
+                      <div class="ml-3">
+                          <h3 class="font-bold">Office Address</h3>
+                          <p class="text-gray-600 text-sm">101/103, 2nd Floor Nagdevi Street, Mumbai</p>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Other Contact Info -->
+              <div class="p-4 rounded-lg flex items-center shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                  <i class="fas fa-clock text-red-500 text-xl"></i>
+                  <div class="ml-3">
+                      <h3 class="font-bold">Office Timings</h3>
+                      <p class="text-gray-600 text-sm">Monday - Saturday (9:00am to 5pm) <br> Sunday (Closed)</p>
+                  </div>
+              </div>
+              <div class="p-4 rounded-lg flex items-center shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                  <i class="fas fa-envelope text-red-500 text-xl"></i>
+                  <div class="ml-3">
+                      <h3 class="font-bold">Email Address</h3>
+                      <p class="text-gray-600 text-sm">info@megatech.com</p>
+                  </div>
+              </div>
+              <div class="p-4 rounded-lg flex items-center shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                  <i class="fas fa-phone text-red-500 text-xl"></i>
+                  <div class="ml-3">
+                      <h3 class="font-bold">Phone Number</h3>
+                      <p class="text-gray-600 text-sm">+91-22-2345 4295</p>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Right Side: Contact Form -->
+          <div class="border-2 border-black-300 p-6 rounded-lg shadow-md" data-aos="fade-left">
+              <form action="#" method="POST" class="space-y-6">
+                  <div class="grid grid-cols-2 gap-4">
+                      <input type="text" placeholder="First name" class="w-full p-3 border border-gray-200 rounded-lg" required>
+                      <input type="text" placeholder="Last name" class="w-full p-3 border border-gray-200 rounded-lg" required>
+                  </div>
+                  <input type="email" placeholder="you@company.com" class="w-full p-3 border border-gray-200 rounded-lg" required>
+                  <input type="tel" placeholder="+1 (555) 000-0000" class="w-full p-3 border border-gray-200 rounded-lg" required>
+                  <select class="w-full p-3 border border-gray-200 rounded-lg" required>
+                      <option selected>Select date</option>
+                      <option>December - 02 - 2022</option>
+                  </select>
+                  <textarea placeholder="Message" class="w-full p-3 border border-gray-200 rounded-lg h-32" required></textarea>
+                  <button type="submit" class="w-full pagination-button text-white py-3 rounded-lg ">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+     
+      
+
+      <div
+        class="bg-gray-100 py-6 px-6 w-full flex flex-wrap justify-evenly items-center space-y-4 sm:space-y-0"
+      >
+        <!-- High Quality -->
+        <div
+          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
+          data-aos="fade-up"
+        >
+          <i class="fas fa-trophy text-red-900 text-4xl"></i>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">High Quality</h3>
+            <p class="text-gray-500 text-sm">Crafted from top materials</p>
+          </div>
+        </div>
+
+        <!-- Warranty Protection -->
+        <div
+          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <i class="fas fa-shield-alt text-red-900 text-4xl"></i>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+              Warranty Protection
+            </h3>
+            <p class="text-gray-500 text-sm">Over 2 years</p>
+          </div>
+        </div>
+
+        <!-- Free Shipping -->
+        <div
+          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <i class="fas fa-truck text-red-900 text-4xl"></i>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">Free Shipping</h3>
+            <p class="text-gray-500 text-sm">Order over 1500</p>
+          </div>
+        </div>
+
+        <!-- 24/7 Support -->
+        <div
+          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <i class="fas fa-headset text-red-900 text-4xl"></i>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">24 / 7 Support</h3>
+            <p class="text-gray-500 text-sm">Dedicated support</p>
+          </div>
+        </div>
+      </div>
+
+       <!-- footer starts -->
+	  <footer class="bg-[#FFFFFF] py-18 px-6 sm:px-10 lg:px-20 relative overflow-hidden font-[Poppins]">
+      <div class="container mx-auto flex flex-col lg:flex-row gap-10">
+        
+        <!-- Logo and Description -->
+        <div data-aos="fade-right" class="lg:w-[30%] w-full">
+        <div class="flex items-center space-x-2">
+          <img src="assets/logo.png" alt="megatexh Logo" class="w-full max-w-xs lg:max-w-sm">
+        </div>
+        <p class="mt-5 text-gray-900">
+          But also the leap into electronic typesetting, remaining essentially unchanged. 
+          It was popularised in the 1960s with the release of Letraset sheets con
+        </p>
+        </div>
+    
+        <!-- Footer Links -->
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+    
+        <!-- Categories -->
+        <div data-aos="fade-up" data-aos-delay="100">
+          <h3 class="text-red-600 font-semibold mb-4 text-xl">Categories</h3>
+          <ul class="text-gray-900 space-y-2">
+          <li><a href="#" class="hover:text-red-600 ">Home</a></li>
+                          <li><a href="#" class="hover:text-red-600">Shop</a></li>
+                          <li><a href="#" class="hover:text-red-600">About</a></li>
+                          <li><a href="#" class="hover:text-red-600">Contact</a></li>
+          </ul>
+        </div>
+    
+        
+        <div data-aos="fade-up" data-aos-delay="200">
+          <h3 class="text-xl font-semibold text-red-600 ">Help</h3>
+          <ul class="mt-4 space-y-2 text-gray-900">
+            <li><a href="#" class=" hover:text-red-600">Payment Options</a></li>
+            <li><a href="#" class=" hover:text-red-600">Returns</a></li>
+            <li><a href="#" class=" hover:text-red-600">Privacy Policies</a></li>
+          </ul>
+        </div>
+    
+        <!-- Legal -->
+        <div data-aos="fade-up" data-aos-delay="300">
+          <h3 class="text-red-600 font-semibold mb-4 text-xl">Legal</h3>
+          <ul class="text-gray-900 space-y-2">
+          <li class=" hover:text-red-600">Terms & Conditions</li>
+          <li class=" hover:text-red-600">Privacy Policy</li>
+          <li class=" hover:text-red-600">Cookie Notice</li>
+          <li class=" hover:text-red-600">Cookie Preferences</li>
+          <li class=" hover:text-red-600">Trust Center</li>
+          </ul>
+        </div>
+    
+        <!-- Contact Us -->
+        <div data-aos="fade-up" data-aos-delay="400">
+          <h3 class="text-red-600 font-semibold mb-4 text-xl">Contact Us</h3>
+          <p class="text-gray-900 flex items-center gap-2"><i class="fas fa-phone"></i>+91 22 60600525 / 9833926293</p>
+          <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Gala No.101, Siddhi Building, Square Industrial Park, Off. National Highway, Near Rudra Shelter Hotel, Tungarphata, Vasai East,
+          Palghar - 401208 Mumbai</p>
+        </div>
+        </div>
+      </div>
+    
+      <!-- Bottom bar -->
+      <div class="border-t border-red text-black mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-center gap-4">
+        <div class="flex space-x-4 text-black text-2xl">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="text-sm text-black font-bold">2024 Megatech. All rights reverved</p>
+      </div>
+      </footer>
+      <!-- footer ends -->
+
+      <!-- Scroll to Top Button -->
+      <button
+        id="scrollToTopBtn"
+        class="scroll-to-top-btn text-white text-4xl z-50 fixed bottom-4 right-4 bg-red-900 rounded-full p-2"
+      >
+        <i class="fa-regular fa-circle-up"></i>
+      </button>
+
+      <!-- WhatsApp Button HTML -->
+      <a
+        class="whatsapp-button fixed bottom-4 left-4 bg-red-900 rounded-full p-2"
+        href="https://wa.me/9112000"
+        target="_blank"
+        title="Chat with us on WhatsApp"
+      >
+        <img
+          src="assets/icons8-whatsapp.gif"
+          alt="WhatsApp"
+          class="whatsapp-icon rounded-full"
+        />
+      </a>
+    </div>
+  </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburgerIcon = document.getElementById("hamburger-icon");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const sideMenu = document.getElementById("side-menu");
+        const closeMenu = document.getElementById("close-menu");
+        const menuLinks = document.querySelectorAll("#menu-links li a");
+
+        // Function to toggle the mobile menu
+        function toggleMenu() {
+          if (mobileMenu.classList.contains("hidden")) {
+            openMenu();
+          } else {
+            closeMobileMenu();
+          }
+        }
+
+        // Function to open the mobile menu
+        function openMenu() {
+          mobileMenu.classList.remove("hidden");
+          setTimeout(() => {
+            sideMenu.classList.remove("-translate-x-full");
+          }, 10);
+        }
+
+        // Function to close the mobile menu
+        function closeMobileMenu() {
+          sideMenu.classList.add("-translate-x-full");
+          setTimeout(() => {
+            mobileMenu.classList.add("hidden");
+          }, 300); // Matches transition duration
+        }
+
+        // Event listener to toggle the menu when clicking the hamburger icon
+        hamburgerIcon.addEventListener("click", toggleMenu);
+
+        // Event listener to close the menu when clicking the close button
+        closeMenu.addEventListener("click", closeMobileMenu);
+
+        // Event listener to close the menu when clicking outside the menu content
+        mobileMenu.addEventListener("click", function (event) {
+          if (
+            !sideMenu.contains(event.target) &&
+            event.target !== hamburgerIcon
+          ) {
+            closeMobileMenu();
+          }
+        });
+
+        // Event listener to close the menu when clicking on a menu item
+        menuLinks.forEach((link) => {
+          link.addEventListener("click", closeMobileMenu);
+        });
+      });
+           // back to top button ------------------------------------------------------------------------
+           var mybutton = document.getElementById("scrollToTopBtn");
+
+if (mybutton) {
+    window.onscroll = function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.classList.add("show");
+        } else {
+            mybutton.classList.remove("show");
+        }
+    };
+
+    mybutton.onclick = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+}
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

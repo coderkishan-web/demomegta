@@ -1,0 +1,837 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body  class="bgbody">
+	<div class="overflow-x-hidden">
+		
+		 
+	<nav class="w-full fixed top-0 bg-white flex items-center justify-between px-6 lg:px-28 py-3 border-b border-gray-300 z-50">
+        <!-- Left Section: Logo -->
+        <div class="flex items-center space-x-2">
+            <a href="index.html"><img src="assets/logo.png" alt="Mega-Tech Logo" class="lg:h-14 h-10"></a>
+        </div>
+        
+        <!-- Center Section: Links (default for desktop) -->
+        <ul class="hidden md:flex space-x-10 text-lg font-medium text-black">
+            <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="index.html">Home</a></li>
+            <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+            <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+            <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+            <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div>
+            <a href="" class="pagination-button hidden md:block" >
+                Get Brochure
+            </a>
+         </div>
+        
+            
+                <!-- Hamburger Icon (visible on mobile/tablet) -->
+                <div class="md:hidden flex items-center cursor-pointer" id="hamburger-icon">
+                    <i class="fas fa-bars text-3xl text-black"></i>
+                </div>
+            </nav>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden">
+                <div class="w-2/3 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out " id="side-menu">
+                    <div class="flex justify-end p-4">
+                        <button id="close-menu" class="text-3xl">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                  <div class="flex flex-col justify-center items-center gap-10">
+                    <ul class="flex flex-col items-center space-y-6 mt-10 text-xl font-medium text-black" id="menu-links">
+                        <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="index.html">Home</a></li>
+                        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+            <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <a href="" class="pagination-button " >
+                        Get Brochure
+                    </a>
+                    <div class=" flex space-x-4">
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook text-2xl transition-transform transform hover:scale-110 hover:text-blue-600"></i>
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter text-2xl transition-transform transform hover:scale-110 hover:text-blue-400"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram text-2xl transition-transform transform hover:scale-110 hover:text-pink-600"></i>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+	
+
+<!-- hero  -->
+	<div class=" w-full   flex items-center justify-center relative ">
+		
+		
+
+		<div id='bg'></div>
+		<div class="wrapper h-[50rem] lg:min-h-screen overflow-hidden" id="wrapper">
+		   <div class="bg absolute top-0 left-0 w-full h-full -z-10 ">
+			<div class="buildings">
+				<div class="window"></div>
+				<div class="window"></div>
+				<div class="window"></div>
+				<div class="window"></div>
+				<div class="window"></div>
+				<div class="window"></div>
+			</div>
+			<div class="ground">
+				<div class="sewer"></div>
+			</div>
+		   </div>
+			<div class="overlay" id="overlay"></div>
+			
+			<div class="w-full flex justify-left mt-60 md:ml-20">
+				<div class="w-full md:w-[60%] py-8 lg:px-20 px-8 text rounded-xl  shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] bg-white/1 backdrop-blur-sm bg-gradient-to-br from-white/10 to-white/5">
+				  <p class="text-lg font-semibold text-red-600 uppercase tracking-wide">What's New at MegaTech</p>
+				  <h2 class="text-2xl md:text-4xl lg:text-6xl font-bold text-white leading-tight mt-2">
+					Explore Our <br> Latest Innovations
+				  </h2>
+				  <p class="text-gray-100 text-sm md:text-lg mt-4">
+					Stay ahead with MegaTech’s newest range of advanced logistics and cold chain solutions, designed to boost efficiency and reliability.
+				  </p>
+				 <a href="products.html">
+					<button class="pagination-button mt-3">
+						View Latest Products
+					  </button>
+				 </a>
+				</div>
+			  </div>
+			  
+			  
+		
+			<abbr title="Click here" class='lamp' id='tall'>
+				<div id='post'></div>
+				<div id='curve'></div>
+				<div id='socket'></div>
+			</abbr>
+		</div>
+	  
+	</div>
+
+
+	<!-- quality  -->
+	
+	<section class="py-16 px-4 md:px-8 lg:px-20 relative z-10 bg-gray-100">
+	
+		<div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
+		  
+		  <!-- Card 1 -->
+		  <div class="bg-[#e9e9e9] rounded-2xl p-6 flex flex-col justify-between min-h-[250px]" data-aos="fade-up">
+			<div>
+			  <i class="fas fa-trophy text-red-600 text-3xl mb-4"></i>
+			  <h3 class="text-lg font-semibold mb-2 ">High Quality</h3>
+			  <p class="text-sm ">Discover our stunning collection of modern lighting for every space.</p>
+			</div>
+			<div class="mt-6">
+			  <div class="w-9 h-9 rounded-full  flex items-center justify-center text-white">
+				<p class="border p-4 rounded-full bg-red-600 flex justify-center items-center"><i class="fas fa-arrow-up-right-from-square text-lg "></i>
+				</p>
+			  </div>
+			</div>
+		  </div>
+	
+		  <!-- Card 2 -->
+		  <div class="bg-[#e9e9e9] rounded-2xl p-6 flex flex-col justify-between min-h-[250px]" data-aos="fade-up" data-aos-delay="100">
+			<div>
+			  <i class="fas fa-shield-alt text-red-600 text-3xl mb-4"></i>
+			  <h3 class="text-lg font-semibold mb-2 ">Warranty Protection</h3>
+			  <p class="text-sm ">Discover our stunning collection of modern lighting for every space.</p>
+			</div>
+			<div class="mt-6">
+			  <div class="w-9 h-9 rounded-full bg-red-600 flex items-center justify-center text-white">
+				<p class="border p-4 rounded-full bg-red-600 flex justify-center items-center"><i class="fas fa-arrow-up-right-from-square text-lg "></i>
+				</p>
+			  </div>
+			</div>
+		  </div>
+	
+		  <!-- Card 3 -->
+		  <div class="bg-[#e9e9e9] rounded-2xl p-6 flex flex-col justify-between min-h-[250px]" data-aos="fade-up" data-aos-delay="200">
+			<div>
+			  <i class="fas fa-box text-red-600 text-3xl mb-4"></i>
+			  <h3 class="text-lg font-semibold mb-2 ">Free Shipping</h3>
+			  <p class="text-sm ">Discover our stunning collection of modern lighting for every space.</p>
+			</div>
+			<div class="mt-6">
+			  <div class="w-9 h-9 rounded-full bg-red-600 flex items-center justify-center text-white">
+				<p class="border p-4 rounded-full bg-red-600 flex justify-center items-center"><i class="fas fa-arrow-up-right-from-square text-lg "></i>
+				</p>
+			  </div>
+			</div>
+		  </div>
+	
+		  <!-- Card 4 -->
+		  <div class="bg-[#e9e9e9] rounded-2xl p-6 flex flex-col justify-between min-h-[250px]" data-aos="fade-up" data-aos-delay="300">
+			<div>
+			  <i class="fas fa-headset text-red-600 text-3xl mb-4"></i>
+			  <h3 class="text-lg font-semibold mb-2 ">24 / 7 Support</h3>
+			  <p class="text-sm ">Discover our stunning collection of modern lighting for every space.</p>
+			</div>
+			<div class="mt-6">
+			  <div class="w-9 h-9 rounded-full bg-red-600 flex items-center justify-center text-white">
+				<p class="border p-4 rounded-full bg-red-600 flex justify-center items-center"><i class="fas fa-arrow-up-right-from-square text-lg "></i>
+				</p>
+			  </div>
+			</div>
+		  </div>
+	
+		</div>
+	  </section>
+	
+	
+<!-- sec2  -->
+<div class="about min-h-screen w-full bg-gray-100 flex justify-evenly items-center" style="background-image: url(assets/bgb.jpeg); background-size: cover;">
+    <div class="w-full max-w-6xl mx-auto px-6 text-center">
+        <!-- Title -->
+        <h2 class="text-3xl md:text-4xl text-gray-900 py-5" data-aos="fade-up">Browse our product Range</h2>
+        
+        <!-- Description -->
+        <p class="text-gray-600 mt-4 text-lg" data-aos="fade-up" data-aos-delay="100">
+            Discover our stunning collection of modern lighting for every space.
+        </p>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-10">
+            
+            <!-- Dining Product (from left) -->
+            <div class="bg-white shadow-xl rounded-2xl overflow-hidden transform transition duration-300 hover:scale-105" 
+                 data-aos="fade-left" 
+                 data-aos-delay="100">
+                <img src="assets/Mask Group.png" alt="Dining" class="w-full h-96 object-cover">
+                <p class="py-5 text-xl font-semibold text-gray-900">Dining</p>
+            </div>
+
+            <!-- Living Room Product (from right) -->
+            <div class="bg-white shadow-xl rounded-2xl overflow-hidden transform transition duration-300 hover:scale-105" 
+                 data-aos="fade-right" 
+                 data-aos-delay="200">
+                <img src="assets/Image-living room.png" alt="Living" class="w-full h-96 object-cover">
+                <p class="py-5 text-xl font-semibold text-gray-900">Living</p>
+            </div>
+
+            <!-- Bedroom Product (from bottom) -->
+            <div class="bg-white shadow-xl rounded-2xl overflow-hidden transform transition duration-300 hover:scale-105" 
+                 data-aos="fade-up" 
+                 data-aos-delay="300">
+                <img src="assets/Mask Group  1.png" alt="Bedroom" class="w-full h-96 object-cover">
+                <p class="py-5 text-xl font-semibold text-gray-900">Bedroom</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- abt -->
+<div class="w-full bg-gray-100">
+    <section class="max-w-7xl mx-auto py-20 px-4 lg:px-8" data-aos="fade-up">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        
+        <!-- Left video and Stats -->
+        <div class="relative overflow-hidden rounded-tr-[80px] rounded-bl-[80px]" data-aos="fade-right">
+          <!-- Video Section -->
+          <div class="w-full flex justify-center items-center relative" data-aos="zoom-in">
+            <video
+              src="assets/WhatsApp Video 2025-03-06 at 2.00.49 PM (1).mp4"
+              muted
+              autoplay
+              loop
+              class="w-full h-[50vh] object-cover shadow-lg transition-transform transform"
+            ></video>
+          </div>
+
+          <!-- Stats Box -->
+          <div class="absolute top-5 left-5 bg-white shadow-lg px-3 py-2 space-y-6 text-gray-800 font-medium" data-aos="fade-down">
+            <img src="assets/logo.png" alt="Mega-Tech Logo" class="lg:h-8">
+          </div>
+        </div>
+
+        <!-- Right Content -->
+        <div data-aos="fade-left">
+          <div class="flex space-x-2 text-md text-gray-600 mb-4" data-aos="fade-up">
+            <span>Empowering the green Technology</span>
+          </div>
+          <h2 class="text-6xl font-bold text-red-700 mb-4" data-aos="fade-up" data-aos-delay="100">WHO WE ARE</h2>
+          <p class="text-gray-800 font-semibold leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="200">
+            MEGATECH was established in 2013 in Mumbai by Mr. Ruchik Soni, who has a technical background in Electronics Engineering. After completing his engineering degree, he secured an internship at an LED lighting production company. This experience proved to be instrumental in laying the foundation for what would become a successful multinational company in the LED lighting industry.
+          </p>
+          <p class="text-gray-800 font-semibold leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="300">
+            We offer a wide range of LED lights and solar panels that work great for homes, businesses, industrial spaces, highways, and pretty much any indoor or outdoor setup. MEGATECH has been a go-to partner for top global brands, helping light up everything from architectural projects to interiors, warehouses, and more.....
+          </p>
+          <div class="flex items-center space-x-3" data-aos="fade-up" data-aos-delay="400">
+            <a href="about.html">
+              <button class="flex items-center pagination-button text-white px-4 py-2 rounded-2xl space-x-2 bg-red-600 hover:bg-red-700 transition">
+                <i class="fas fa-comment-dots"></i>
+                <span>Read More</span>
+              </button>
+            </a>
+            <div class="flex items-center space-x-3">
+              <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-red-300 text-red-600 hover:bg-red-50">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-red-300 text-red-600 hover:bg-red-50">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-red-300 text-red-600 hover:bg-red-50">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-red-300 text-red-600 hover:bg-red-50">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- explore us  -->
+  <section class="bg-[#f3f4f6] relative py-20 px-4 lg:px-20" data-aos="fade-up">
+	<!-- Background bulb image -->
+	<img src="your-bulb-image-path.png" alt="Bulb BG" class="absolute top-0 right-0 w-40 opacity-10 z-0" />
+  
+	<div class="relative z-10">
+	  <h2 class="text-5xl font-bold text-red-700 mb-2" data-aos="fade-down">EXPLORE SERVICES</h2>
+	  <p class="text-gray-500 mb-10 text-xl" data-aos="fade-up" data-aos-delay="100">
+		Comprehensive Lighting Solutions for Every Space – Residential to Industrial
+	  </p>
+  
+	  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+		<!-- Left Items -->
+		<div class="space-y-0">
+		  <!-- Item 1 -->
+		  <div class="flex space-x-4 items-start p-6 transition border-2 border-transparent hover:border-red-700 bg-white shadow-sm" data-aos="fade-right">
+			<div class="w-8 h-8 mt-1 text-red-600 text-2xl">
+			  <i class="fas fa-lightbulb"></i>
+			</div>
+			<div>
+			  <h3 class="text-2xl mb-2 font-bold">Drivers</h3>
+			  <p class="text-gray-600 text-md">
+				Under the guidance of our trained professionals, we are offering our patrons excellent quality LED Drivers. With the use of modern machinery, we fabricate these drivers using exceptional-quality raw material,
+			  </p>
+			</div>
+		  </div>
+  
+		  <!-- Item 2 -->
+		  <div class="flex space-x-4 items-start p-6 transition border-2 border-transparent hover:border-red-700 bg-white shadow-sm" data-aos="fade-right" data-aos-delay="100">
+			<div class="w-8 h-8 mt-1 text-red-600 text-2xl">
+			  <i class="fas fa-solar-panel"></i>
+			</div>
+			<div>
+			  <h3 class="text-2xl font-bold mb-2">Solar Lights</h3>
+			  <p class="text-gray-600 text-md">
+				We are offering safe and reliable range of Solar Light. The solar modules used in these lights make them a cost effective lighting solution. Further, the long functional life and low maintenance cost of these light makes them highly popular.
+			  </p>
+			</div>
+		  </div>
+  
+		  <!-- Item 3 -->
+		  <div class="flex space-x-4 items-start p-6 transition border-2 border-transparent hover:border-red-700 bg-white shadow-sm" data-aos="fade-right" data-aos-delay="200">
+			<div class="w-8 h-8 mt-1 text-red-600 text-2xl">
+			  <i class="fas fa-cubes"></i>
+			</div>
+			<div>
+			  <h3 class="text-2xl font-bold mb-2">LED Lights</h3>
+			  <p class="text-gray-600 text-md">
+				Our organization is offering an excellent quality of LED Lights. It ensure the high quality and performance of all our products and hence complete customer satisfaction. It is provided by us at very reasonable price.
+			  </p>
+			</div>
+		  </div>
+		</div>
+  
+		<!-- Right Image Carousel -->
+		<div data-aos="fade-left">
+		  <div class="swiper exploreSwiper rounded-xl overflow-hidden h-[60vh] relative">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide">
+				<img src="assets/Mask Group.png" class="w-full h-full object-cover" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="assets/Image-living room.png" class="w-full h-full object-cover" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="assets/Mask Group  1.png" class="w-full h-full object-cover" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="assets/Rectangle 27.png" class="w-full h-full object-cover" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="assets/Rectangle 40.png" class="w-full h-full object-cover" />
+			  </div>
+			  <div class="swiper-slide">
+				<img src="assets/Rectangle 41.png" class="w-full h-full object-cover" />
+			  </div>
+			</div>
+			<div class="swiper-pagination mt-4 flex justify-center"></div>
+		  </div>
+		</div>
+  
+	  </div>
+	</div>
+  </section>
+  
+  
+
+
+<!-- products -->
+<section class="bg-gray-100 py-12 px-10 md:px-20 min-h-screen">
+    <h1 class="w-full text-center text-4xl py-5 text-red-700 font-bold" data-aos="fade-up">Explore Our Products</h1>
+	<p class="w-full text-center text-xl text-gray-700 mb-10" data-aos="fade-up" data-aos-delay="100">
+		Discover energy-efficient lighting solutions tailored to your needs.
+MEGATECH delivers quality and innovation you can <br> count on.
+Proudly lighting up homes, industries, and infrastructure across India.
+	</p>
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <!-- Original Products -->
+             <a href="product.html?id=0">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                <div class="relative">
+                    <img src="assets/products/01GRAZIA/GLANZAGOLD.jpeg" alt="GRAZIA" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">GRAZIA</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">7W, 10W, 12W, 15W, 20W, 25W, 30W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+        </a>
+        <a href="product.html?id=1">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                <div class="relative">
+                    <img src="assets/products/02GRAZIATRIMLESS/1031(31).jpg" alt="GRAZIA TRIMLESS" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">GRAZIA TRIMLESS</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">7W, 10W, 12W, 15W, 20W, 25W, 30W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+        </a>
+		<a href="product.html?id=2">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                <div class="relative">
+                    <img src="assets/products/03INVICTO/SWIFTBLACKWHITE.jpeg" alt="INVICTO" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">INVICTO</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">8W, 12W, 20W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+		</a>
+			<a href="product.html?id=16">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="400">
+                <div class="relative">
+                    <img src="assets/products/17MASHMOVABLEDOWNLIGHT/ARP_6296copy.jpg" alt="mash" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">MASH MOVABLE DOWN LIGHT</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">4W,8W,12W,15W,20W,30W,40W,50W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+			</a>
+			<a href="product.html?id=13">
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="500">
+                <div class="relative">
+                    <img src="assets/products/14VENUSSPOTLIGHT/ARP_6280copy.jpg" alt="venu LIGHT" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">VENUS SPOT LIGHT</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">7W, 12W, 18W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+			</a>
+			<a href="product.html?id=5">
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="600">
+                <div class="relative">
+                    <img src="assets/products/06PULLOUTSINGLE/SINGLEPULLOUT.jpeg" alt="PULLOUT SINGLE" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">PULLOUT SINGLE</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">8W, 12W, 20W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+			</a>
+			<a href="product.html?id=6">
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="700">
+                <div class="relative">
+                    <img src="assets/products/07PULLOUTDOUBLE/PULLOUTDOUBLE7WX2.jpeg" alt="PULLOUT DOUBLE" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">PULLOUT DOUBLE</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">8W, 12W, 20W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+			</a>
+			<a href="product.html?id=14">
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="800">
+                <div class="relative">
+                    <img src="assets/products/15WALLWASHERSPOTLIGHT/GLANZAWALLWASHERCHROME.jpg" alt="TILT SPOT LIGHT" class="w-full h-56 object-cover">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">WALL WASHER SPOT LIGHT</h3>
+                    <p class="text-gray-500 text-sm">Indoor Light</p>
+                    <p class="text-gray-500 text-sm">LED Spot Light</p>
+                    <p class="text-gray-500 text-sm">12W,15W,22W,30W, 40W</p>
+                    <p class="text-gray-500 text-sm">3000K, 4000K, 6500K</p>
+                    <p class="text-gray-500 text-sm">Cree, Bridgelux</p>
+                </div>
+            </div>
+			</a>
+        </div>
+        <div class="flex justify-center mt-6">
+            <a href="products.html"><button class="pagination-button">Show More</button></a>
+        </div>
+    </div>
+</section>
+
+
+
+
+	 <!-- slider -->
+<section class="w-full h-auto bg-gray-100 py-20 flex flex-col md:flex-row justify-center items-center ">
+	<!-- Text Section -->
+	<div class="w-full mx-auto px-8 lg:px-40" data-aos="fade-up">
+	  <h2 class="text-6xl font-bold text-gray-900">Case Studies</h2>
+	  <p class="text-black text-lg mt-6 mb-6 text-justify">Mega Tech delivered impactful lighting solutions for iconic sites like the Swaminarayan Temple in Uganda, Imagica in Khopoli, and 72 Jinalaya in Gujarat, using advanced DALI, DMX, and RGB technologies.
+		At IWLS & ICCS 2024, under the Emiton brand, they showcased smart, energy-efficient LED systems tailored for warehouses, cold storage, and industrial environments.
+		With a focus on innovation, sustainability, and customization, Mega Tech continues to set benchmarks in architectural and industrial lighting.</p>
+<a href="projects.html"><button class="pagination-button">Explore More</button></a>
+	</div>
+  
+	<!-- Slider Section -->
+	<div class="w-full swiper-container mt-8 overflow-hidden px-10">
+	  <div class="swiper-wrapper flex w-full">
+	
+  
+		<!-- Slide 4 -->
+		<div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden relative flex-none w-full sm:w-80 md:w-96 lg:w-1/4 mx-2" data-aos="fade-up" data-aos-delay="400">
+			<a href="projects.html">
+				<img src="assets/Rectangle 40.png" alt="Exhibition" class="w-full h-[30rem] object-cover" />
+			<div class="absolute bottom-4 left-4 bg-white p-4 shadow-md">
+			  <p class="text-lg text-gray-600">01 — Project Highlight –  (72 Jinalaya, Kutch, Gujarat)</p>
+			  <h3 class="text-2xl font-bold">2025</h3>
+			</div>
+			<div class="absolute bottom-4 right-4 p-4">
+			  <button class="pagination-button">→</button>
+			</div>
+			</a>
+		  </div>
+  
+		  	<!-- Slide 1 -->
+		<div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden relative flex-none w-full sm:w-80 md:w-96 lg:w-1/4 mx-2 border-2 border-red-600" data-aos="fade-up" data-aos-delay="100">
+			<a href="Casestudy.html">
+			<img src="event1/p5.jpeg" alt="Concert" class="w-full h-[30rem] object-cover" />
+			<div class="absolute bottom-4 left-4 bg-white p-4 shadow-md">
+			  <p class="text-lg text-gray-600">02 — India Warehousing & Logistics Show (IWLS) & India Cold Chain Show (ICCS) 
+			</p>
+			  <h3 class="text-2xl font-bold">2024</h3>
+			</div>
+			<div class="absolute bottom-4 right-4 p-4">
+			  <button class="pagination-button">→</button>
+			</div>
+		</a>
+		  </div>
+		<!-- Slide 3 -->
+		<div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden relative flex-none w-full sm:w-80 md:w-96 lg:w-1/4 mx-2" data-aos="fade-up" data-aos-delay="300">
+		 <a href="projects.html">
+			<img src="assets/Rectangle 27.png" alt="Workshop" class="w-full h-[30rem] object-cover" />
+			<div class="absolute bottom-4 left-4 bg-white p-4 shadow-md">
+			  <p class="text-lg text-gray-600">03 — Project Highlight  (Imagica, Khopoli, India)</p>
+			  <h3 class="text-2xl font-bold">2024</h3>
+			</div>
+			<div class="absolute bottom-4 right-4 p-4">
+			  <button class="pagination-button">→</button>
+			</div>
+		 </a>
+		</div>
+  
+		
+		<!-- Slide 2 -->
+		<div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden relative flex-none w-full sm:w-80 md:w-96 lg:w-1/4 mx-2" data-aos="fade-up" data-aos-delay="200">
+			<a href="projects.html">
+				<img src="assets/Rectangle 45.png" alt="Cafe" class="w-full h-[30rem] object-cover" />
+			<div class="absolute bottom-4 left-4 bg-white p-4 shadow-md">
+			  <p class="text-lg text-gray-600">04 — Project Highlight--(Swaminarayan Temples,<br> Uganda) </p>
+			  <h3 class="text-2xl font-bold"> 2022 </h3>
+			</div>
+			<div class="absolute bottom-4 right-4 p-4">
+			  <button class="pagination-button">→</button>
+			</div>
+			</a>
+		  </div>
+
+	  </div>
+  
+	</div>
+  </section>
+  
+
+
+<!-- social banner -->
+<section class="flex justify-center items-center min-h-screen bg-gray-100 pb-40">
+	<div class="relative w-full max-w-8xl p-8" data-aos="fade-up">
+	  <h2 class="text-center text-2xl font-semibold mb-6" data-aos="fade-up" data-aos-delay="100">Share your setup with</h2>
+	  <h1 class="text-center text-4xl font-bold text-red-700" data-aos="fade-up" data-aos-delay="200">#Megatech</h1>
+	  
+	  <div class="relative w-full h-[400px] mt-8">
+		<div class="absolute top-0 left-0 sm:w-8 md:w-36 lg:w-48 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="300">
+		  <img src="assets/Rectangle 40.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+		<div class="absolute top-10 left-1/2 sm:left-8 md:left-40 lg:left-60 sm:w-16 md:w-40 lg:w-48 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="400">
+		  <img src="assets/Rectangle 44.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+		<div class="absolute top-60 left-1/2 sm:left-8 md:left-40 lg:left-96 sm:w-16 md:w-40 lg:w-48 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="500">
+		  <img src="assets/Rectangle 45.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+		<div class="absolute bottom-40 lg:left-[34rem] sm:left-16 md:left-32  sm:w-6 md:w-40 lg:w-48 h-60 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="600">
+			<img src="assets/Rectangle 38.png" alt="Light" class="w-full h-full object-cover">
+		  </div>
+		<div class="absolute -bottom-20 right-1/2 sm:right-16 md:right-32 lg:right-96 sm:w-6 md:w-40 lg:w-48 h-60 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="600">
+		  <img src="assets/Rectangle 38.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+		<div class="absolute bottom-0 left-1/2 sm:left-16 md:left-32 lg:left-40 sm:w-6 md:w-40 lg:w-48 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="700">
+		  <img src="assets/Image-living room.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+		<div class="absolute top-10 right-1 sm:right-0 md:right-1 w-28 sm:w-16 md:w-64 lg:w-64 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="800">
+		  <img src="assets/fr-2.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+		<div class="absolute bottom-0 right-1/2 sm:right-16 md:right-32 lg:right-40 sm:w-6 md:w-40 lg:w-48 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="700">
+			<img src="assets/Image-living room.png" alt="Light" class="w-full h-full object-cover">
+		  </div>
+		<div class="absolute top-0 right-1/2 sm:right-12 md:right-32 lg:right-72 sm:w-8 md:w-36 lg:w-52 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="900">
+		  <img src="assets/Rectangle 27.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+		<div class="absolute bottom-5 left-1/2 transform -translate-x-1/2 sm:w-16 md:w-40 lg:w-48 h-60 overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="1000">
+		  <img src="assets/Rectangle 41.png" alt="Light" class="w-full h-full object-cover">
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  
+
+
+	  <!-- footer starts -->
+	  <footer class="bg-[#FFFFFF] py-18 px-6 sm:px-10 lg:px-20 relative overflow-hidden font-[Poppins]">
+		<div class="container mx-auto flex flex-col lg:flex-row gap-10">
+		  
+		  <!-- Logo and Description -->
+		  <div data-aos="fade-right" class="lg:w-[30%] w-full">
+			<div class="flex items-center space-x-2">
+			  <img src="assets/logo.png" alt="megatexh Logo" class="w-full max-w-xs lg:max-w-sm">
+			</div>
+			<p class="mt-5 text-gray-900">
+				But also the leap into electronic typesetting, remaining essentially unchanged. 
+				It was popularised in the 1960s with the release of Letraset sheets con
+			</p>
+		  </div>
+	
+		  <!-- Footer Links -->
+		  <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+	
+			<!-- Categories -->
+			<div data-aos="fade-up" data-aos-delay="100">
+			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Categories</h3>
+			  <ul class="text-gray-900 space-y-2">
+				<li><a href="#" class="hover:text-red-600 ">Home</a></li>
+                        <li><a href="#" class="hover:text-red-600">Shop</a></li>
+                        <li><a href="#" class="hover:text-red-600">About</a></li>
+                        <li><a href="#" class="hover:text-red-600">Contact</a></li>
+			  </ul>
+			</div>
+	
+			
+			<div data-aos="fade-up" data-aos-delay="200">
+				<h3 class="text-xl font-semibold text-red-600 ">Help</h3>
+				<ul class="mt-4 space-y-2 text-gray-900">
+					<li><a href="#" class=" hover:text-red-600">Payment Options</a></li>
+					<li><a href="#" class=" hover:text-red-600">Returns</a></li>
+					<li><a href="#" class=" hover:text-red-600">Privacy Policies</a></li>
+				</ul>
+			</div>
+	
+			<!-- Legal -->
+			<div data-aos="fade-up" data-aos-delay="300">
+			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Legal</h3>
+			  <ul class="text-gray-900 space-y-2">
+				<li class=" hover:text-red-600">Terms & Conditions</li>
+				<li class=" hover:text-red-600">Privacy Policy</li>
+				<li class=" hover:text-red-600">Cookie Notice</li>
+				<li class=" hover:text-red-600">Cookie Preferences</li>
+				<li class=" hover:text-red-600">Trust Center</li>
+			  </ul>
+			</div>
+	
+			<!-- Contact Us -->
+			<div data-aos="fade-up" data-aos-delay="400">
+			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Contact Us</h3>
+			  <p class="text-gray-900 flex items-center gap-2"><i class="fas fa-phone"></i>+91 22 60600525 / 9833926293</p>
+			  <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Gala No.101, Siddhi Building, Square Industrial Park, Off. National Highway, Near Rudra Shelter Hotel, Tungarphata, Vasai East,
+				Palghar - 401208 Mumbai</p>
+			</div>
+		  </div>
+		</div>
+	
+		<!-- Bottom bar -->
+		<div class="border-t border-red text-black mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-center gap-4">
+		  <div class="flex space-x-4 text-black text-2xl">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		  </div>
+		  <p class="text-sm text-black font-bold">2024 Megatech. All rights reverved</p>
+		</div>
+	  </footer>
+	  <!-- footer ends -->
+	   <!-- Scroll to Top Button -->
+	   <button id="scrollToTopBtn" class="scroll-to-top-btn  text-white text-4xl  fixed bottom-4 right-4 bg-red-900 rounded-full p-2 ">
+        <i class="fa-regular fa-circle-up"></i>
+      </button>
+  
+  
+      <!-- WhatsApp Button HTML -->
+      <a class="whatsapp-button fixed bottom-4 left-4 bg-red-900 rounded-full p-2 " href="https://wa.me/9112000" target="_blank" title="Chat with us on WhatsApp"> 
+          <img src="assets/icons8-whatsapp.gif" alt="WhatsApp" class="whatsapp-icon rounded-full"/>
+      </a>
+          
+<script>
+	  
+	     // back to top button ------------------------------------------------------------------------
+ var mybutton = document.getElementById("scrollToTopBtn");
+
+if (mybutton) {
+	window.onscroll = function() {
+		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+			mybutton.classList.add("show");
+		} else {
+			mybutton.classList.remove("show");
+		}
+	};
+
+	mybutton.onclick = function() {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+}
+	
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const sideMenu = document.getElementById("side-menu");
+    const closeMenu = document.getElementById("close-menu");
+    const menuLinks = document.querySelectorAll("#menu-links li a");
+
+    // Function to toggle the mobile menu
+    function toggleMenu() {
+        if (mobileMenu.classList.contains("hidden")) {
+            openMenu();
+        } else {
+            closeMobileMenu();
+        }
+    }
+
+    // Function to open the mobile menu
+    function openMenu() {
+        mobileMenu.classList.remove("hidden");
+        setTimeout(() => {
+            sideMenu.classList.remove("-translate-x-full");
+        }, 10);
+    }
+
+    // Function to close the mobile menu
+    function closeMobileMenu() {
+        sideMenu.classList.add("-translate-x-full");
+        setTimeout(() => {
+            mobileMenu.classList.add("hidden");
+        }, 300); // Matches transition duration
+    }
+
+    // Event listener to toggle the menu when clicking the hamburger icon
+    hamburgerIcon.addEventListener("click", toggleMenu);
+
+    // Event listener to close the menu when clicking the close button
+    closeMenu.addEventListener("click", closeMobileMenu);
+
+    // Event listener to close the menu when clicking outside the menu content
+    mobileMenu.addEventListener("click", function (event) {
+        if (!sideMenu.contains(event.target) && event.target !== hamburgerIcon) {
+            closeMobileMenu();
+        }
+    });
+
+    // Event listener to close the menu when clicking on a menu item
+    menuLinks.forEach(link => {
+        link.addEventListener("click", closeMobileMenu);
+    });
+});
+
+</script>
+
+	<script src="script.js"></script>
+	
+  
+	</div>
+</body>
+</html>

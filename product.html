@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="./output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  	    <!-- Font Awesome CDN -->
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+ 
+  <style>
+    /* Custom CSS for hover zoom effect */
+    .card {
+      min-width: 250px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    /* Container to enable scrolling */
+    #scroller {
+      display: flex;
+      overflow-x: hidden;
+      white-space: nowrap; /* Ensures all cards are in a single line */
+    }
+
+  
+  #product-gallery-wrapper::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  #product-gallery-wrapper::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+  }
+
+  #product-gallery-wrapper::-webkit-scrollbar-thumb {
+    background-color: #b91c1c;
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+  }
+
+  #product-gallery-wrapper {
+    scrollbar-color: #b91c1c #f0f0f0;
+    scrollbar-width: thin;
+  }
+
+
+  </style>
+ 
+
+</head>
+<body>
+   
+  
+ 
+	<nav class="w-full fixed top-0 bg-white flex items-center justify-between px-6 lg:px-28 py-3 border-b border-gray-300 z-50">
+    <!-- Left Section: Logo -->
+    <div class="flex items-center space-x-2">
+        <a href="index.html"><img src="assets/logo.png" alt="Mega-Tech Logo" class="lg:h-14 h-10"></a>
+    </div>
+    
+    <!-- Center Section: Links (default for desktop) -->
+    <ul class="hidden md:flex space-x-10 text-lg font-medium text-black">
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div>
+        <a href="" class="pagination-button hidden md:block" >
+            Get Brochure
+        </a>
+     </div>
+    
+        
+            <!-- Hamburger Icon (visible on mobile/tablet) -->
+            <div class="md:hidden flex items-center cursor-pointer" id="hamburger-icon">
+                <i class="fas fa-bars text-3xl text-black"></i>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden">
+            <div class="w-2/3 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out " id="side-menu">
+                <div class="flex justify-end p-4">
+                    <button id="close-menu" class="text-3xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+              <div class="flex flex-col justify-center items-center gap-10">
+                <ul class="flex flex-col items-center space-y-6 mt-10 text-xl font-medium text-black" id="menu-links">
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+                <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+
+                <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="" class="pagination-button " >
+                    Get Brochure
+                </a>
+                <div class=" flex space-x-4">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook text-2xl transition-transform transform hover:scale-110 hover:text-blue-600"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter text-2xl transition-transform transform hover:scale-110 hover:text-blue-400"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram text-2xl transition-transform transform hover:scale-110 hover:text-pink-600"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+
+    
+  <div class="w-full min-h-screen bg-gray-100">
+          
+    <!--About Hero Section Starts -->
+    <section class="relative bg-red-900  text-white pt-12 overflow-hidden h-auto lg:h-[40vh] flex items-center">
+        <!-- Background Image Layer -->
+        <div class="absolute inset-0 bg-[url('assets/megatech.jpg')] bg-cover bg-center "></div>
+
+  
+        <!-- Content Container -->
+        <div class="relative container mx-auto py-16 px-8 md:px-40 text-center w-full">
+          <h1 class="text-3xl md:text-5xl font-Playfair">Our Product</h1>
+          
+        </div>
+  
+        <!-- Breadcrumbs -->
+        <nav class="absolute bottom-6 left-8 md:left-40 text-sm md:text-base font-Helvetica">
+          <ul class="flex items-center space-x-2 md:space-x-4 text-gray-300">
+            <li>
+              <a href="index.html" class="hover:text-white transition-colors">Home</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="contact.html" class="text-white font-medium">Products</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+   <!-- Product Details Section -->
+   <div class="container mx-auto px-0 py-10 max-w-7xl"> 
+    <div class="flex flex-col lg:flex-row gap-8 bg-white rounded-2xl justify-center items-center shadow-lg overflow-hidden p-8" data-aos="fade-up">
+      
+      <!-- Image Section -->
+      <div class="lg:w-[60rem] flex flex-col items-center justify-center">
+   <!-- Main Product Image -->
+<img id="product-image" alt="Product Image"
+class="w-full h-[500px] object-contain rounded-xl shadow-lg transition-transform duration-300" />
+
+<!-- Thumbnail Gallery -->
+<div id="product-gallery-wrapper" class="w-full overflow-x-auto mt-4 scroll-smooth scrollbar-hide">
+
+<div id="product-gallery" class="flex gap-2 ">
+  <!-- Thumbnails will be dynamically injected via JavaScript -->
+</div>
+</div>
+
+
+        
+      </div>
+  
+      <!-- Product Details Section -->
+      <div class="lg:w-full space-y-8">
+  
+        <!-- Breadcrumb -->
+        <nav class="text-sm text-gray-500" aria-label="Breadcrumb" data-aos="fade-left" data-aos-delay="100">
+          <ol class="flex items-center space-x-2">
+            <li><a href="index.html" class="hover:text-[#7a1c1c]">Home</a></li>
+            <li><span class="mx-2">/</span></li>
+            <li><a href="products.html" class="hover:text-[#7a1c1c]">Products</a></li>
+            <li><span class="mx-2">/</span></li>
+            <li><span id="product-name-title" class="text-[#7a1c1c]">Loading...</span></li>
+          </ol>
+        </nav>
+  
+        <!-- Product Title -->
+        <h1 id="product-name" class="text-4xl font-bold text-[#531508]" data-aos="fade-left" data-aos-delay="200">Loading...</h1>
+  
+        <!-- Product Description -->
+        <div class="space-y-8" data-aos="fade-left" data-aos-delay="300">
+          <div class="border-b border-[#D7A77F] pb-2">
+            <h2 class="text-2xl font-semibold text-[#7a1c1c]" id="product-name-desc">Description</h2>
+          </div>
+  
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
+            <!-- Add product details here -->
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">Sr.no:</span><span class="text-black" id="SrNo"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">Product Code:</span><span class="text-[#7a1c1c]" id="product-price"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">Category:</span><span class="text-[#7a1c1c]" id="category"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">Sub-Category:</span><span class="text-[#7a1c1c]" id="subcategory"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">Wattage:</span><span class="text-[#7a1c1c]" id="Wattage"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">CCT (K):</span><span class="text-[#7a1c1c]" id="CCT"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">LED:</span><span class="text-[#7a1c1c]" id="led"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">MAX LUMEN:</span><span class="text-[#7a1c1c]" id="LUMEN"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">IP RATING:</span><span class="text-[#7a1c1c]" id="rating"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">BEAM ANGLE:</span><span class="text-[#7a1c1c]" id="beam"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">DRIVER:</span><span class="text-[#7a1c1c]" id="driver"></span></div>
+            <div class="flex items-center space-x-3"><span class="font-medium min-w-[100px]">HOUSING MATERIAL:</span><span class="text-[#7a1c1c]" id="housematerial"></span></div>
+            <div class="flex items-center space-x-3"><span class="text-[#7a1c1c]" id="Size"></span></div>
+          </div>
+        </div>
+  
+        <!-- Share Section -->
+        <div class="pt-8 border-t border-[#D7A77F]" data-aos="fade-up" data-aos-delay="400">
+          <p class="text-gray-700 font-medium mb-4">Share:</p>
+          <div class="flex space-x-6">
+            <a href="#" class="text-[#7a1c1c] hover:text-[#531508] transition-colors duration-300"><i class="fa-brands fa-facebook text-2xl"></i></a>
+            <a href="#" class="text-[#7a1c1c] hover:text-[#531508] transition-colors duration-300"><i class="fa-brands fa-twitter text-2xl"></i></a>
+            <a href="#" class="text-[#7a1c1c] hover:text-[#531508] transition-colors duration-300"><i class="fa-brands fa-pinterest text-2xl"></i></a>
+            <a href="#" class="text-[#7a1c1c] hover:text-[#531508] transition-colors duration-300"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+            <a href="#" class="text-[#7a1c1c] hover:text-[#531508] transition-colors duration-300"><i class="fa-brands fa-telegram text-2xl"></i></a>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+
+      <!-- scroller  -->
+      <section class="bg-gray-100 flex items-center justify-center h-auto py-20">
+        <section class="w-full max-w-5xl lg:max-w-7xl">
+          <h3 class="text-center text-red-900 text-2xl md:text-4xl font-bold mb-12">Explore Other Products</h3>
+          <div class="relative mx-auto" style="width: 100%">
+            <div id="scroller" class="space-x-4 overflow-y-hidden text-sm productpagescroller">
+              <!-- data from api  -->
+            </div>
+          </div>
+        </section>
+      </section>
+  </div>
+
+    
+   
+    <!-- footer starts -->
+	  <footer class="bg-[#FFFFFF] py-18 px-6 sm:px-10 lg:px-20 relative overflow-hidden font-[Poppins]">
+		<div class="container mx-auto flex flex-col lg:flex-row gap-10">
+		  
+		  <!-- Logo and Description -->
+		  <div data-aos="fade-right" class="lg:w-[30%] w-full">
+			<div class="flex items-center space-x-2">
+			  <img src="assets/logo.png" alt="megatexh Logo" class="w-full max-w-xs lg:max-w-sm">
+			</div>
+			<p class="mt-5 text-gray-900">
+				But also the leap into electronic typesetting, remaining essentially unchanged. 
+				It was popularised in the 1960s with the release of Letraset sheets con
+			</p>
+		  </div>
+	
+		  <!-- Footer Links -->
+		  <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+	
+			<!-- Categories -->
+			<div data-aos="fade-up" data-aos-delay="100">
+			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Categories</h3>
+			  <ul class="text-gray-900 space-y-2">
+				<li><a href="#" class="hover:text-red-600 ">Home</a></li>
+                        <li><a href="#" class="hover:text-red-600">Shop</a></li>
+                        <li><a href="#" class="hover:text-red-600">About</a></li>
+                        <li><a href="#" class="hover:text-red-600">Contact</a></li>
+			  </ul>
+			</div>
+	
+			
+			<div data-aos="fade-up" data-aos-delay="200">
+				<h3 class="text-xl font-semibold text-red-600 ">Help</h3>
+				<ul class="mt-4 space-y-2 text-gray-900">
+					<li><a href="#" class=" hover:text-red-600">Payment Options</a></li>
+					<li><a href="#" class=" hover:text-red-600">Returns</a></li>
+					<li><a href="#" class=" hover:text-red-600">Privacy Policies</a></li>
+				</ul>
+			</div>
+	
+			<!-- Legal -->
+			<div data-aos="fade-up" data-aos-delay="300">
+			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Legal</h3>
+			  <ul class="text-gray-900 space-y-2">
+				<li class=" hover:text-red-600">Terms & Conditions</li>
+				<li class=" hover:text-red-600">Privacy Policy</li>
+				<li class=" hover:text-red-600">Cookie Notice</li>
+				<li class=" hover:text-red-600">Cookie Preferences</li>
+				<li class=" hover:text-red-600">Trust Center</li>
+			  </ul>
+			</div>
+	
+			<!-- Contact Us -->
+			<div data-aos="fade-up" data-aos-delay="400">
+			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Contact Us</h3>
+			  <p class="text-gray-900 flex items-center gap-2"><i class="fas fa-phone"></i>+91 22 60600525 / 9833926293</p>
+			  <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Gala No.101, Siddhi Building, Square Industrial Park, Off. National Highway, Near Rudra Shelter Hotel, Tungarphata, Vasai East,
+				Palghar - 401208 Mumbai</p>
+			</div>
+		  </div>
+		</div>
+	
+		<!-- Bottom bar -->
+		<div class="border-t border-red text-black mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-center gap-4">
+		  <div class="flex space-x-4 text-black text-2xl">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		  </div>
+		  <p class="text-sm text-black font-bold">2024 Megatech. All rights reverved</p>
+		</div>
+	  </footer>
+	  <!-- footer ends -->         
+         <!-- Scroll to Top Button -->
+	   <button id="scrollToTopBtn" class="scroll-to-top-btn  text-white text-4xl  fixed bottom-4 right-4 bg-red-900 rounded-full p-2 ">
+        <i class="fa-regular fa-circle-up"></i>
+      </button>
+  
+  
+      <!-- WhatsApp Button HTML -->
+      <a class="whatsapp-button fixed bottom-4 left-4 bg-red-900 rounded-full p-2 " href="https://wa.me/9112000" target="_blank" title="Chat with us on WhatsApp"> 
+          <img src="assets/icons8-whatsapp.gif" alt="WhatsApp" class="whatsapp-icon rounded-full"/>
+      </a>
+          
+<script>
+    
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const sideMenu = document.getElementById("side-menu");
+    const closeMenu = document.getElementById("close-menu");
+    const menuLinks = document.querySelectorAll("#menu-links li a");
+
+    // Function to toggle the mobile menu
+    function toggleMenu() {
+        if (mobileMenu.classList.contains("hidden")) {
+            openMenu();
+        } else {
+            closeMobileMenu();
+        }
+    }
+
+    // Function to open the mobile menu
+    function openMenu() {
+        mobileMenu.classList.remove("hidden");
+        setTimeout(() => {
+            sideMenu.classList.remove("-translate-x-full");
+        }, 10);
+    }
+
+    // Function to close the mobile menu
+    function closeMobileMenu() {
+        sideMenu.classList.add("-translate-x-full");
+        setTimeout(() => {
+            mobileMenu.classList.add("hidden");
+        }, 300); // Matches transition duration
+    }
+
+    // Event listener to toggle the menu when clicking the hamburger icon
+    hamburgerIcon.addEventListener("click", toggleMenu);
+
+    // Event listener to close the menu when clicking the close button
+    closeMenu.addEventListener("click", closeMobileMenu);
+
+    // Event listener to close the menu when clicking outside the menu content
+    mobileMenu.addEventListener("click", function (event) {
+        if (!sideMenu.contains(event.target) && event.target !== hamburgerIcon) {
+            closeMobileMenu();
+        }
+    });
+
+    // Event listener to close the menu when clicking on a menu item
+    menuLinks.forEach(link => {
+        link.addEventListener("click", closeMobileMenu);
+    });
+});
+// scroller 
+document.addEventListener("DOMContentLoaded", function() {
+  const scroller = document.getElementById('scroller');
+  if (scroller) {
+    let scrollSpeed = 2; // Adjust the speed as needed
+    scroller.innerHTML += scroller.innerHTML; // Duplicate content for seamless scrolling
+
+    // Use setInterval to move the scroller continuously
+    setInterval(() => {
+      scroller.scrollLeft += scrollSpeed;
+
+      // Reset the scroll position to create an infinite loop
+      if (scroller.scrollLeft >= scroller.scrollWidth / 2) {
+        scroller.scrollLeft = 0;
+      }
+    }, 20); 
+
+    // Optional: Pause scrolling on hover
+    scroller.addEventListener('mouseenter', () => {
+      scrollSpeed = 0;
+    });
+
+    scroller.addEventListener('mouseleave', () => {
+      scrollSpeed = 2; // Resume scrolling when the mouse leaves
+    });
+  } 
+});
+
+     // back to top button ------------------------------------------------------------------------
+     var mybutton = document.getElementById("scrollToTopBtn");
+
+if (mybutton) {
+    window.onscroll = function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.classList.add("show");
+        } else {
+            mybutton.classList.remove("show");
+        }
+    };
+
+    mybutton.onclick = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+}
+</script>
+
+    <script src="script.js"></script>
+</body>
+</html>

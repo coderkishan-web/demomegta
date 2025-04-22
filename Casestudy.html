@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mega Tech @ IWLS & ICCS 2024</title>
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+	    <!-- Font Awesome CDN -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- AOS CSS -->
+	  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+	  <!-- AOS JS -->
+	  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <style>
+  
+   
+    /* Masonry Layout */
+    .masonry {
+      column-count: 2;
+      column-gap: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .masonry {
+        column-count: 4;
+      }
+    }
+
+    .masonry-item {
+      break-inside: avoid;
+      margin-bottom: 1rem;
+    }
+
+    /* Image hover effect */
+    .masonry-item img {
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .masonry-item img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body class=" text-gray-800">
+  <div class="contain overflow-x-hidden">
+    
+   
+	<nav class="w-full fixed top-0 bg-white flex items-center justify-between px-6 lg:px-28 py-3 border-b border-gray-300 z-50">
+    <!-- Left Section: Logo -->
+    <div class="flex items-center space-x-2">
+        <a href="index.html"><img src="assets/logo.png" alt="Mega-Tech Logo" class="lg:h-14 h-10"></a>
+    </div>
+    
+    <!-- Center Section: Links (default for desktop) -->
+    <ul class="hidden md:flex space-x-10 text-lg font-medium text-black">
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div>
+        <a href="" class="pagination-button hidden md:block" >
+            Get Brochure
+        </a>
+     </div>
+    
+        
+            <!-- Hamburger Icon (visible on mobile/tablet) -->
+            <div class="md:hidden flex items-center cursor-pointer" id="hamburger-icon">
+                <i class="fas fa-bars text-3xl text-black"></i>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden">
+            <div class="w-2/3 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out " id="side-menu">
+                <div class="flex justify-end p-4">
+                    <button id="close-menu" class="text-3xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+              <div class="flex flex-col justify-center items-center gap-10">
+                <ul class="flex flex-col items-center space-y-6 mt-10 text-xl font-medium text-black" id="menu-links">
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="about.html">About</a></li>
+                <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+
+                <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="" class="pagination-button " >
+                    Get Brochure
+                </a>
+                <div class=" flex space-x-4">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook text-2xl transition-transform transform hover:scale-110 hover:text-blue-600"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter text-2xl transition-transform transform hover:scale-110 hover:text-blue-400"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram text-2xl transition-transform transform hover:scale-110 hover:text-pink-600"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+          
+<!-- Header Section -->
+<section class="relative bg-cover bg-center h-screen" style="background-image: url('event1/home.jpeg'); background-attachment: fixed;">
+  <div class="absolute inset-0 bg-black/60 bg-opacity-20 flex flex-col justify-center items-center text-white text-center px-4"
+       data-aos="fade-up" data-aos-duration="1200">
+    <h1 class="text-4xl md:text-6xl font-bold">Mega Tech @ IWLS & ICCS 2024</h1>
+    <p class="mt-4 text-lg md:text-xl">Innovating the Future of Industrial Lighting</p>
+    <span class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-full">November 21–23, 2024 | Mumbai</span>
+    <a href="#event" class="mt-6 inline-block bg-white text-black px-6 py-2 rounded-full shadow-md hover:bg-gray-200 transition">View Event Gallery</a>
+  </div>
+</section>
+
+<!-- Event Overview -->
+<section class="py-16 px-4 md:px-20 bg-white">
+  <div class="grid md:grid-cols-2 gap-10 items-center">
+    <div data-aos="fade-right" data-aos-duration="1000">
+      <h2 class="text-3xl font-semibold mb-4">About the Event</h2>
+      <p class="mb-4">
+        The India Warehousing & Logistics Show (IWLS) and India Cold Chain Show (ICCS) are two of the most significant events...
+      </p>
+      <p class="mb-4">
+        The 2024 editions of these shows took place concurrently at the Bombay Exhibition Centre in Mumbai...
+      </p>
+      <ul class="mt-6 space-y-2">
+        <li>📍 <strong>Venue:</strong> Bombay Exhibition Centre, Mumbai</li>
+        <li>🏷️ <strong>Focus:</strong> Logistics, Warehousing, Cold Chain, Industrial Lighting</li>
+        <li>🌐 <strong>Attendees:</strong> 5,000+ Professionals</li>
+      </ul>
+    </div>
+    <div data-aos="fade-left" data-aos-duration="1000">
+      <img src="event1/abt1.jpeg" alt="Event Image" class="rounded-xl shadow-md">
+    </div>
+  </div>
+</section>
+
+
+<!-- Mega Tech's Participation -->
+<section class="py-16 px-4 md:px-20 bg-gray-100">
+  <div class="text-center" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold">Mega Tech’s Participation</h2>
+    <p class="mt-4 max-w-3xl mx-auto">
+      Mega Tech, represented by the <strong>Emiton</strong> brand, proudly participated in the 2024 edition of both the IWLS and ICCS. 
+      As an industry leader in innovative lighting solutions, Mega Tech showcased its state-of-the-art LED lighting products, specially designed 
+      for warehouses, cold storage rooms, and industrial spaces.
+    </p>
+  </div>
+
+  <div class="mt-10 grid md:grid-cols-3 gap-6">
+    <img data-aos="zoom-in" src="event1/p1.jpeg" class="rounded-lg shadow-md transform transition duration-300 ease-in-out h-72 w-full object-cover" alt="Booth Image">
+    <img data-aos="zoom-in" data-aos-delay="100" src="event1/p5.jpeg" class="rounded-lg shadow-md h-72 w-full object-cover" alt="Interaction Image">
+    <img data-aos="zoom-in" data-aos-delay="200" src="event1/p2.jpeg" class="rounded-lg shadow-md transform transition duration-300 ease-in-out h-72 w-full object-cover" alt="Product Image">
+  </div>
+</section>
+
+<!-- Key Products on Display -->
+<section class="py-20 px-4 md:px-5 lg:px-20 bg-white">
+  <h2 class="text-4xl font-bold text-center mb-14 text-gray-800" data-aos="fade-up">Key Products on Display</h2>
+
+  <div class="grid md:grid-cols-3 gap-10">
+    <!-- Warehouse LED Lighting -->
+    <div class="relative bg-white border border-gray-200 rounded-2xl shadow-lg overflow-hidden p-6 backdrop-blur-sm" data-aos="fade-up">
+      <img src="event1/p1.jpeg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-10 blur-sm pointer-events-none" />
+      <div class="relative z-10">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Warehouse LED Lighting</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm leading-relaxed">
+          <li><strong>High-Efficiency Fixtures:</strong> Illuminate large warehouse spaces while minimizing energy consumption.</li>
+          <li><strong>Motion-Activated Lights:</strong> Enable automated energy savings in areas with intermittent activity.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Cold Storage LED Lighting -->
+    <div class="relative bg-white border border-gray-200 rounded-2xl shadow-lg overflow-hidden p-6 backdrop-blur-sm" data-aos="fade-up" data-aos-delay="100">
+      <img src="event1/p2.jpeg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-10 blur-sm pointer-events-none" />
+      <div class="relative z-10">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Cold Storage LED Lighting</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm leading-relaxed">
+          <li><strong>Cold-Resistant LEDs:</strong> Designed for extreme low temperatures in cold storage environments.</li>
+          <li><strong>Low-Temperature Panels:</strong> Ensure reliable performance and savings in refrigerated spaces.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Industrial LED Lighting -->
+    <div class="relative bg-white border border-gray-200 rounded-2xl shadow-lg overflow-hidden p-6 backdrop-blur-sm" data-aos="fade-up" data-aos-delay="200">
+      <img src="event1/p5.jpeg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-10 blur-sm pointer-events-none" />
+      <div class="relative z-10">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Industrial LED Lighting</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm leading-relaxed">
+          <li><strong>Heavy-Duty Lights:</strong> Ideal for industrial facilities requiring rugged, long-term performance.</li>
+          <li><strong>Explosion-Proof Lighting:</strong> Designed for hazardous environments with high safety demands.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Highlights Section -->
+<section class="py-20 px-4 md:px-5 lg:px-20 bg-gray-100">
+  <h2 class="text-4xl font-bold text-center mb-14 text-gray-800" data-aos="fade-up">Showcase Highlights</h2>
+  <div class="grid md:grid-cols-2 gap-8">
+
+    <!-- Energy Efficiency & Sustainability -->
+    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
+      <h4 class="text-xl font-semibold text-green-700 mb-3 flex items-center gap-2">
+        <i class="fas fa-leaf text-green-600"></i> Energy Efficiency & Sustainability
+      </h4>
+      <p class="text-gray-700 leading-relaxed">
+        Mega Tech’s LED lighting solutions provide cost-effective and energy-efficient alternatives, making them the perfect choice for businesses looking to reduce operational costs and support sustainable practices.
+      </p>
+    </div>
+
+    <!-- Advanced Technology Integration -->
+    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+      <h4 class="text-xl font-semibold text-blue-700 mb-3 flex items-center gap-2">
+        <i class="fas fa-microchip text-blue-600"></i> Advanced Technology Integration
+      </h4>
+      <p class="text-gray-700 leading-relaxed">
+        The products on display featured cutting-edge technology such as smart controls, motion sensors, and dimmable features, all designed to optimize lighting based on real-time needs, further enhancing energy efficiency.
+      </p>
+    </div>
+
+    <!-- Durability & Safety -->
+    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="300">
+      <h4 class="text-xl font-semibold text-red-700 mb-3 flex items-center gap-2">
+        <i class="fas fa-shield-alt text-red-600"></i> Durability & Safety
+      </h4>
+      <p class="text-gray-700 leading-relaxed">
+        LED lighting solutions from Mega Tech are designed to withstand harsh conditions, whether in cold storage rooms, industrial settings, or large warehouse facilities, ensuring long-lasting performance and improved safety.
+      </p>
+    </div>
+
+    <!-- Product Customization -->
+    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="400">
+      <h4 class="text-xl font-semibold text-yellow-700 mb-3 flex items-center gap-2">
+        <i class="fas fa-tools text-yellow-600"></i> Product Customization
+      </h4>
+      <p class="text-gray-700 leading-relaxed">
+        Mega Tech offered personalized consultations to visitors, showcasing how their LED solutions could be tailored to specific lighting needs in diverse industrial environments.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Mega Tech Benefits Section -->
+<section class="py-20 px-4 md:px-5 lg:px-20 bg-white">
+  <h2 class="text-4xl font-bold text-center text-gray-800 mb-14" data-aos="fade-up">How It Benefited Mega Tech</h2>
+
+  <!-- Networking & Engagement -->
+  <div class="bg-gray-50 p-8 rounded-xl shadow-md mb-12" data-aos="fade-up" data-aos-delay="100">
+    <h3 class="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-3">
+      <i class="fas fa-handshake text-blue-600"></i> Networking & Engagement
+    </h3>
+    <p class="text-gray-700 leading-relaxed">
+      The event served as a perfect platform for Mega Tech to connect with industry leaders, distributors, and potential customers from various sectors. 
+      Meaningful discussions were held with warehousing professionals, cold chain operators, and logistics providers to understand their lighting needs and 
+      demonstrate how Emiton’s innovative solutions can improve operational efficiency.
+    </p>
+  </div>
+
+  <!-- Key Takeaways -->
+  <div class="grid md:grid-cols-3 gap-8 mb-14">
+    <div class="bg-white p-6 rounded-xl border shadow hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="100">
+      <h4 class="text-xl font-semibold text-green-700 mb-2 flex items-center gap-2">
+        <i class="fas fa-bolt text-green-600"></i> Energy-Efficient Solutions
+      </h4>
+      <p class="text-gray-600 text-sm leading-relaxed">
+        Strong interest was observed in Mega Tech’s LED options, showing the industry's shift toward reducing operational energy costs.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl border shadow hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="200">
+      <h4 class="text-xl font-semibold text-cyan-700 mb-2 flex items-center gap-2">
+        <i class="fas fa-snowflake text-cyan-600"></i> Cold Storage Lighting
+      </h4>
+      <p class="text-gray-600 text-sm leading-relaxed">
+        High demand for lighting solutions tailored to cold chain operations highlights the need for efficiency in low-temp environments.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl border shadow hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="300">
+      <h4 class="text-xl font-semibold text-purple-700 mb-2 flex items-center gap-2">
+        <i class="fas fa-link text-purple-600"></i> Future Collaborations
+      </h4>
+      <p class="text-gray-600 text-sm leading-relaxed">
+        Numerous discussions opened doors for potential partnerships with logistics and cold storage companies.
+      </p>
+    </div>
+  </div>
+
+  <!-- Conclusion -->
+  <div class="bg-gray-100 p-8 rounded-xl shadow-md text-center" data-aos="fade-up" data-aos-delay="100">
+    <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
+      <strong class="text-gray-800">Mega Tech’s participation in IWLS and ICCS 2024</strong> under the Emiton brand was a resounding success. 
+      The event provided valuable exposure for their LED lighting solutions, enabled impactful networking, and solidified their position as a leader in 
+      logistics and cold chain lighting. Mega Tech is excited about future opportunities and looks forward to continuing its journey of innovation.
+    </p>
+  </div>
+</section>
+
+
+   
+   <!-- Masonry Gallery -->
+   <h2 class="text-4xl font-bold text-center col-span-full text-red-900 py-10" data-aos="fade-up" id="event">Event Gallery</h2>
+   <div class="col-span-full text-center mb-6" data-aos="fade-up" data-aos-delay="100">
+     <p class="font-italic text-gray-600">Explore the highlights from Mega Tech's participation at IWLS & ICCS 2024.</p>
+   </div>
+   
+<div id="gallery" class="masonry p-4 max-w-7xl mx-auto ">
+  <!-- Images rendered via JS -->
+</div>
+
+<!-- Load More / Show Less Button -->
+<div class="flex justify-center mt-4 mb-10" data-aos="fade-up">
+  <button id="toggleButton" class="pagination-button text-white px-6 py-2 rounded ">
+    Load More
+  </button>
+</div>
+
+<!-- Image Modal -->
+<div id="imageModal" class="fixed inset-0 bg-black/80 bg-opacity-20  items-center justify-center z-50 hidden" data-aos="zoom-in">
+  <div class="relative max-w-2xl max-h-2xl p-4">
+    <button id="closeModal" class="absolute top-0 right-2 text-red-900 text-2xl font-bold  bg-white rounded-full px-2"><i class="fas fa-times"></i>
+    </button>
+    <img id="modalImage" src="" class="rounded-lg shadow-lg mx-auto" />
+    <div class="flex justify-between mt-4 text-white text-xl">
+      <button id="prevImage" class="hover:text-gray-300 px-4">← Prev</button>
+      <button id="nextImage" class="hover:text-gray-300 px-4">Next →</button>
+    </div>
+  </div>
+</div>
+
+<!-- Conclusion Section -->
+<section class="py-16 px-4 md:px-20 bg-gray-900 text-white text-center" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold mb-4">Looking Ahead</h2>
+  <p>Mega Tech’s participation was a great success. We look forward to continued innovation and offering the best in LED lighting solutions for the industrial sector.</p>
+  <a href="#" class="mt-6 inline-block bg-yellow-500 text-black px-6 py-2 rounded-full shadow-md hover:bg-yellow-400 transition">Explore Emiton Products</a>
+</section>
+
+
+ <!-- footer starts -->
+ <footer class="bg-[#FFFFFF] py-18 px-6 sm:px-10 lg:px-20 relative overflow-hidden font-[Poppins]">
+  <div class="container mx-auto flex flex-col lg:flex-row gap-10">
+    
+    <!-- Logo and Description -->
+    <div data-aos="fade-right" class="lg:w-[30%] w-full">
+    <div class="flex items-center space-x-2">
+      <img src="assets/logo.png" alt="megatexh Logo" class="w-full max-w-xs lg:max-w-sm">
+    </div>
+    <p class="mt-5 text-gray-900">
+      But also the leap into electronic typesetting, remaining essentially unchanged. 
+      It was popularised in the 1960s with the release of Letraset sheets con
+    </p>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+
+    <!-- Categories -->
+    <div data-aos="fade-up" data-aos-delay="100">
+      <h3 class="text-red-600 font-semibold mb-4 text-xl">Categories</h3>
+      <ul class="text-gray-900 space-y-2">
+      <li><a href="#" class="hover:text-red-600 ">Home</a></li>
+                      <li><a href="#" class="hover:text-red-600">Shop</a></li>
+                      <li><a href="#" class="hover:text-red-600">About</a></li>
+                      <li><a href="#" class="hover:text-red-600">Contact</a></li>
+      </ul>
+    </div>
+
+    
+    <div data-aos="fade-up" data-aos-delay="200">
+      <h3 class="text-xl font-semibold text-red-600 ">Help</h3>
+      <ul class="mt-4 space-y-2 text-gray-900">
+        <li><a href="#" class=" hover:text-red-600">Payment Options</a></li>
+        <li><a href="#" class=" hover:text-red-600">Returns</a></li>
+        <li><a href="#" class=" hover:text-red-600">Privacy Policies</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal -->
+    <div data-aos="fade-up" data-aos-delay="300">
+      <h3 class="text-red-600 font-semibold mb-4 text-xl">Legal</h3>
+      <ul class="text-gray-900 space-y-2">
+      <li class=" hover:text-red-600">Terms & Conditions</li>
+      <li class=" hover:text-red-600">Privacy Policy</li>
+      <li class=" hover:text-red-600">Cookie Notice</li>
+      <li class=" hover:text-red-600">Cookie Preferences</li>
+      <li class=" hover:text-red-600">Trust Center</li>
+      </ul>
+    </div>
+
+    <!-- Contact Us -->
+    <div data-aos="fade-up" data-aos-delay="400">
+      <h3 class="text-red-600 font-semibold mb-4 text-xl">Contact Us</h3>
+      <p class="text-gray-900 flex items-center gap-2"><i class="fas fa-phone"></i>+91 22 60600525 / 9833926293</p>
+      <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Gala No.101, Siddhi Building, Square Industrial Park, Off. National Highway, Near Rudra Shelter Hotel, Tungarphata, Vasai East,
+      Palghar - 401208 Mumbai</p>
+    </div>
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="border-t border-red text-black mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-center gap-4">
+    <div class="flex space-x-4 text-black text-2xl">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p class="text-sm text-black font-bold">2024 Megatech. All rights reverved</p>
+  </div>
+  </footer>
+  <!-- footer ends -->
+  </div>
+	   <!-- Scroll to Top Button -->
+	   <button id="scrollToTopBtn" class="scroll-to-top-btn  text-white text-4xl  fixed bottom-4 right-4 bg-red-900 rounded-full p-2 ">
+        <i class="fa-regular fa-circle-up"></i>
+      </button>
+  
+  
+      <!-- WhatsApp Button HTML -->
+      <a class="whatsapp-button fixed bottom-4 left-4 bg-red-900 rounded-full p-2 " href="https://wa.me/9112000" target="_blank" title="Chat with us on WhatsApp"> 
+          <img src="assets/icons8-whatsapp.gif" alt="WhatsApp" class="whatsapp-icon rounded-full"/>
+      </a>
+      <script src="script.js"></script>    
+<script>
+
+	     // back to top button ------------------------------------------------------------------------
+		 var mybutton = document.getElementById("scrollToTopBtn");
+
+if (mybutton) {
+	window.onscroll = function() {
+		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+			mybutton.classList.add("show");
+		} else {
+			mybutton.classList.remove("show");
+		}
+	};
+
+	mybutton.onclick = function() {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+}
+	
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const sideMenu = document.getElementById("side-menu");
+    const closeMenu = document.getElementById("close-menu");
+    const menuLinks = document.querySelectorAll("#menu-links li a");
+
+    // Function to toggle the mobile menu
+    function toggleMenu() {
+        if (mobileMenu.classList.contains("hidden")) {
+            openMenu();
+        } else {
+            closeMobileMenu();
+        }
+    }
+
+    // Function to open the mobile menu
+    function openMenu() {
+        mobileMenu.classList.remove("hidden");
+        setTimeout(() => {
+            sideMenu.classList.remove("-translate-x-full");
+        }, 10);
+    }
+
+    // Function to close the mobile menu
+    function closeMobileMenu() {
+        sideMenu.classList.add("-translate-x-full");
+        setTimeout(() => {
+            mobileMenu.classList.add("hidden");
+        }, 300); // Matches transition duration
+    }
+
+    // Event listener to toggle the menu when clicking the hamburger icon
+    hamburgerIcon.addEventListener("click", toggleMenu);
+
+    // Event listener to close the menu when clicking the close button
+    closeMenu.addEventListener("click", closeMobileMenu);
+
+    // Event listener to close the menu when clicking outside the menu content
+    mobileMenu.addEventListener("click", function (event) {
+        if (!sideMenu.contains(event.target) && event.target !== hamburgerIcon) {
+            closeMobileMenu();
+        }
+    });
+
+    // Event listener to close the menu when clicking on a menu item
+    menuLinks.forEach(link => {
+        link.addEventListener("click", closeMobileMenu);
+    });
+});
+const images = [
+  "event1/1.jpeg", "event1/2.jpeg", "event1/3.jpeg", "event1/4.jpeg",
+  "event1/6.jpeg", "event1/7.jpeg", "event1/8.jpeg", "event1/11.jpeg",
+  "event1/12.jpeg", "event1/13.jpeg", "event1/14.jpeg", "event1/15.jpeg",
+  "event1/p1.jpeg", "event1/p2.jpeg", "event1/p3.jpeg", "event1/p4.jpeg",
+  "event1/p5.jpeg", "event1/abt1.jpeg"
+];
+
+const gallery = document.getElementById("gallery");
+const toggleBtn = document.getElementById("toggleButton");
+const modal = document.getElementById("imageModal");
+const modalImage = document.getElementById("modalImage");
+const closeModal = document.getElementById("closeModal");
+const prevBtn = document.getElementById("prevImage");
+const nextBtn = document.getElementById("nextImage");
+
+let showAll = false;
+let currentIndex = 0;
+
+function renderImages() {
+  gallery.innerHTML = "";
+  const visibleImages = showAll ? images : images.slice(0, 10);
+
+  visibleImages.forEach((src, index) => {
+    const wrapper = document.createElement("div");
+    wrapper.className = "masonry-item";
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = "Gallery Image";
+    img.className = "w-full rounded shadow-md cursor-pointer";
+    img.setAttribute("data-index", index);
+    img.onclick = () => openModal(index);
+    wrapper.appendChild(img);
+    gallery.appendChild(wrapper);
+  });
+
+  toggleBtn.textContent = showAll ? "Show Less" : "Load More";
+}
+
+function openModal(index) {
+  currentIndex = index;
+  modalImage.src = images[currentIndex];
+  modal.classList.remove("hidden");
+  modal.classList.add("flex");
+  document.body.classList.add("overflow-hidden");
+}
+
+function closeModalHandler() {
+  modal.classList.remove("flex");
+  modal.classList.add("hidden");
+  document.body.classList.remove("overflow-hidden");
+}
+
+function updateModalImage() {
+  modalImage.src = images[currentIndex];
+}
+
+toggleBtn.onclick = () => {
+  showAll = !showAll;
+  renderImages();
+};
+
+closeModal.onclick = closeModalHandler;
+
+nextBtn.onclick = () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  updateModalImage();
+};
+
+prevBtn.onclick = () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  updateModalImage();
+};
+
+document.addEventListener("keydown", (e) => {
+  if (modal.classList.contains("hidden")) return;
+  if (e.key === "Escape") closeModalHandler();
+  if (e.key === "ArrowRight") nextBtn.click();
+  if (e.key === "ArrowLeft") prevBtn.click();
+});
+
+renderImages();
+
+  </script>
+
+ 
+
+</body>
+</html>

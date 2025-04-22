@@ -1,0 +1,1668 @@
+[
+    {
+        "Srno": 1,
+        "ProductCode": "123",
+        "name": "GRAZIA",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "ImgUrl": "assets/products/01GRAZIA/GLANZAGOLD.jpeg",
+        "description": "",
+        "Wattage": [
+            "7W",
+            "10W",
+            "12W",
+            "15W",
+            "20W",
+            "25W",
+            "30W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "beam": [
+            "15",
+            "24",
+            "36",
+            "60"
+        ],
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        
+        "galleryimg": [
+            "assets/products/01GRAZIA/GLANZA CHROME.jpeg",
+            "assets/products/01GRAZIA/GLANZAGOLD.jpeg",
+            "assets/products/01GRAZIA/GLANZA MATT BLACK.jpeg",
+            "assets/products/01GRAZIA/GLANZA ROSE GOLD.jpeg",
+            "assets/products/01GRAZIA/GLANZA SHINING BALCK.jpeg",
+            "assets/products/01GRAZIA/GLANZA WHITE.jpeg"
+    
+        ]
+    },
+    {
+        "Srno": 2,
+        "ProductCode": "",
+        "name": "GRAZIA TRIMLESS",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "ImgUrl": "assets/products/02GRAZIATRIMLESS/1031(31).jpg",
+        "description": "",
+        "Wattage": [
+            "7W",
+            "10W",
+            "12W",
+            "15W",
+            "20W",
+            "25W",
+            "30W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "beam": [
+            "15",
+            "24",
+            "36",
+            "60"
+        ],
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/02GRAZIATRIMLESS/1031(31).jpg",
+            "assets/products/02GRAZIATRIMLESS/1031 (59).jpg",
+            "assets/products/02GRAZIATRIMLESS/1031 (68).jpg",
+            "assets/products/02GRAZIATRIMLESS/1031(15).jpg"
+    
+        ]
+    },
+    {
+        "Srno": 3,
+        "ProductCode": "",
+        "name": "INVICTO",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "ImgUrl": "assets/products/03INVICTO/SWIFTBLACKWHITE.jpeg",
+        "description": "",
+        "Wattage": [
+            "8W",
+            "12W",
+            "20W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "beam": [
+            "24",
+            "36",
+            "60"
+        ],
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/03INVICTO/SWIFT 1.jpeg",
+            "assets/products/03INVICTO/SWIFT 7W 12W 18W.jpeg",
+            "assets/products/03INVICTO/SWIFTBLACKWHITE.jpeg",
+            "assets/products/03INVICTO/SWIFT.jpeg"
+    
+        ]
+    },
+    {
+        "Srno": 4,
+        "ProductCode": "",
+        "name": "ASTER",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "ImgUrl":  "assets/products/04ASTER/SUNFLOWER1.jpeg",
+        "description": "",
+        "Wattage": [
+            "8W",
+            "12W",
+            "20W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "beam": [
+            "24",
+            "36",
+            "60"
+        ],
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/04ASTER/SUNFLOWER 1.png",
+            "assets/products/04ASTER/SUNFLOWER 7W 12W 18W.jpeg",
+            "assets/products/04ASTER/SUNFLOWER.png",
+            "assets/products/04ASTER/SUNFLOWER1.jpeg"
+    
+        ]
+    },
+    {
+        "Srno": 5,
+        "ProductCode": "",
+        "name": "IP65 SPOT LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "ImgUrl": "assets/products/05IP65SPOTLIGHT/AQUAIP65,.jpg",
+        "description": "",
+        "Wattage": [
+            "7W",
+            "12W",
+            "18W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "beam": [
+            "40"
+        ],
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/05IP65SPOTLIGHT/AQUA IP65 M.jpg",
+            "assets/products/05IP65SPOTLIGHT/AQUA IP65 WHITE CHROME.jpg",
+            "assets/products/05IP65SPOTLIGHT/AQUAIP65,.jpg",
+            "assets/products/05IP65SPOTLIGHT/AQUA IP65..jpg"
+    
+        ]
+    },
+    {
+        "Srno": 6,
+        "name": "PULLOUT SINGLE",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "Wattage": [
+            "8W",
+            "12W",
+            "20W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "beam": [
+            "24",
+            "36",
+            "60"
+        ],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/06PULLOUTSINGLE/SINGLEPULLOUT.jpeg",
+        "description": "",
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/06PULLOUTSINGLE/PULLOUT SINGLE..jpeg",
+            "assets/products/06PULLOUTSINGLE/PULLOUT SINGLE.jpeg",
+            "assets/products/06PULLOUTSINGLE/SINGLEPULLOUT.jpeg"
+    
+        ]
+    },
+    {
+        "Srno": 7,
+        "name": "PULLOUT DOUBLE",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "Wattage": [
+            "7X2W",
+            "12X2W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "beam": [
+            "15",
+            "24",
+            "36",
+            "60"
+        ],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/07PULLOUTDOUBLE/PULLOUTDOUBLE7WX2.jpeg",
+        "description": "",
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/07PULLOUTDOUBLE/PULLOUT7WX2.jpeg",
+            "assets/products/07PULLOUTDOUBLE/PULLOUTDOUBLE7WX2.jpeg",
+            "assets/products/07PULLOUTDOUBLE/PULLOUT DOUBLE 12X2.jpeg",
+            "assets/products/07PULLOUTDOUBLE/PULLOUT DOUBLE.jpeg"
+
+    
+        ]
+    },
+    {
+        "Srno": 8,
+        "name": "EXTRA DEEP CONE SPOT LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "Wattage": [
+            "3W",
+            "6W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "beam": [
+            "40"
+        ],
+        "ProductCode": "",
+        "ImgUrl":"assets/products/08EXTRADEEPCONESPOTLIGHT/ARP_5462copy.jpg",
+        "description": "",
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/08EXTRADEEPCONESPOTLIGHT/ARP_5458 copy.jpg",
+            "assets/products/08EXTRADEEPCONESPOTLIGHT/ARP_5462copy.jpg",
+           "assets/products/08EXTRADEEPCONESPOTLIGHT/ARP_5464 copy.jpg",
+            "assets/products/08EXTRADEEPCONESPOTLIGHT/EXTRA DEEP CONE 3-6.jpeg",
+            "assets/products/08EXTRADEEPCONESPOTLIGHT/EXTRA DEEP CONE 3-6W.jpeg",
+            "assets/products/08EXTRADEEPCONESPOTLIGHT/EXTRA DEEP CONE 7-12-18.jpeg"
+    
+        ]
+    },
+    {
+        "Srno": 9,
+        "name": "DELTA SPOT LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "Wattage": [
+            "7W",
+            "12W",
+            "18W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "beam": [
+            "24",
+            "36",
+            "60"
+        ],
+        "ProductCode": "",
+        "ImgUrl":     "assets/products/09DELTASPOTLIGHT/DSC_9502.jpg",
+        "description": "",
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+    "assets/products/09DELTASPOTLIGHT/DSC_9502.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9504.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9507.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9508.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9510.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9515.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9516.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9517.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9519.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9520.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9521.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9522.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9524.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9528.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9530.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9532.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9535.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9536.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9537.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9542.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9543.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9546.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9550.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9552.jpg",
+    "assets/products/09DELTASPOTLIGHT/DSC_9554.jpg",
+    "assets/products/09DELTASPOTLIGHT/WhatsApp Image 2024-01-13 at 3.24.59 AM (1).jpeg",
+    "assets/products/09DELTASPOTLIGHT/WhatsApp Image 2024-01-13 at 3.24.59 AM.jpeg",
+    "assets/products/09DELTASPOTLIGHT/WhatsApp Image 2024-01-13 at 3.25.00 AM (1).jpeg",
+    "assets/products/09DELTASPOTLIGHT/WhatsApp Image 2024-01-13 at 3.25.00 AM (2).jpeg",
+    "assets/products/09DELTASPOTLIGHT/WhatsApp Image 2024-01-13 at 3.25.00 AM (3).jpeg"
+]
+
+    },
+    {
+        "Srno": 10,
+        "name": "DEEP CONE SPOT LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "led Spot Light",
+        "Wattage": [
+            "7W",
+            "12W",
+            "18W"
+        ],
+        "cct": [
+            "3000K",
+            "4000K",
+            "6500K"
+        ],
+        "beam": [
+            "24",
+            "36",
+            "60"
+        ],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/10DEEPCONESPOTLIGHT/_R7A3616.jpg",
+        "description": "",
+        "led": [
+            "Cree",
+            "Bridgelux"
+        ],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": [
+            "Phillips",
+            "Fulham",
+            "Osram"
+        ],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3587.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3600.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3603.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3604.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3607.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3608.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3612.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3614.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3615.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3616.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3617.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3619.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3620.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3626.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3627.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3629_1.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3630.jpg",
+    "assets/products/10DEEPCONESPOTLIGHT/_R7A3634.jpg"
+]
+
+    },
+        {
+          "Srno": 11,
+          "name": "CRYSTA SPOT LIGHT",
+          "Category": "Indoor Light",
+          "SubCategory": "Sample 6",
+          "Wattage": ["3W", "7W", "12W", "18W"],
+          "cct": ["3000K", "4000K", "6500K"],
+          "beam": ["15°", "24°", "36°", "60°"],
+          "ProductCode": "",
+          "ImgUrl": "assets/products/11CRYSTASPOTLIGHT/_ARP9283.jpg",
+          "description": "",
+          "led": ["Cree", "Bridgelux"],
+          "maxlumen": "120-140Lm/W",
+          "rating": "IP 20",
+          "driver": ["Phillips", "Fulham", "Osram"],
+          "housing": "Aluminium Die Casting",
+         "galleryimg": [
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9283_1.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9283_2.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9283.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9287.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9295.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9302_2.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9306_1.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9306.jpg",
+    "assets/products/11CRYSTASPOTLIGHT/_ARP9307.jpg"
+]
+
+        },
+        {
+          "Srno": 12,
+          "name": "CURVE SPOT LIGHT",
+          "Category": "Indoor Light",
+          "SubCategory": "",
+          "Wattage": ["3W", "7W", "12W", "18W"],
+          "cct": ["3000K", "4000K", "6500K"],
+          "beam": ["15°", "24°", "36°", "60°"],
+          "ProductCode": "",
+          "ImgUrl": "assets/products/12CURVESPOTLIGHT/_ARP9351.jpg",
+          "description": "",
+          "led": ["Cree", "Bridgelux"],
+          "maxlumen": "120-140Lm/W",
+          "rating": "IP 20",
+          "driver": ["Phillips", "Fulham", "Osram"],
+          "housing": "Aluminium Die Casting",
+          "galleryimg": [
+            "assets/products/12CURVESPOTLIGHT/_ARP9332.jpg",
+          "assets/products/12CURVESPOTLIGHT/_ARP9334.jpg",
+          "assets/products/12CURVESPOTLIGHT/_ARP9342.jpg",
+          "assets/products/12CURVESPOTLIGHT/_ARP9344.jpg",
+          "assets/products/12CURVESPOTLIGHT/_ARP9345.jpg",
+          "assets/products/12CURVESPOTLIGHT/_ARP9351.jpg"
+        ]
+        },
+        {
+            "Srno": 13,
+            "name": "FLAT SPOT LIGHT",
+            "Category": "Indoor Light",
+            "SubCategory": "",
+            "Wattage": ["7W", "12W", "18W"],
+            "cct": ["3000K", "4000K", "6500K"],
+            "beam": ["15°", "24°", "36°", "60°"],
+            "ProductCode": "",
+            "ImgUrl":  "assets/products/13FLATSPOTLIGHT/ARP_5511copy.jpg",
+            "description": "",
+            "led": ["Cree", "Bridgelux"],
+            "maxlumen": "120-140Lm/W",
+            "rating": "IP 20",
+            "driver": ["Phillips", "Fulham", "Osram"],
+            "housing": "Aluminium Die Casting",
+            "galleryimg": [
+              "assets/products/13FLATSPOTLIGHT/ARP_5502 copy.jpg",
+              "assets/products/13FLATSPOTLIGHT/ARP_5504 copy.jpg",
+              "assets/products/13FLATSPOTLIGHT/ARP_5506 copy.jpg",
+              "assets/products/13FLATSPOTLIGHT/ARP_5511copy.jpg",
+              "assets/products/13FLATSPOTLIGHT/ARP_5512 copy.jpg",
+              "assets/products/13FLATSPOTLIGHT/ARP_5513 copy.jpg",
+              "assets/products/13FLATSPOTLIGHT/ARP_5515 copy.jpg"
+  
+          ]
+          },
+        {
+          "Srno": 14,
+          "name": "VENUS SPOT LIGHT",
+          "Category": "Indoor Light",
+          "SubCategory": "",
+          "Wattage": ["7W", "12W", "18W"],
+          "cct": ["3000K", "4000K", "6500K"],
+          "beam": ["15°", "24°", "36°", "60°"],
+          "ProductCode": "",
+          "ImgUrl": "assets/products/14VENUSSPOTLIGHT/ARP_6280copy.jpg",
+          "description": "",
+          "led": ["Cree", "Bridgelux"],
+          "maxlumen": "120-140Lm/W",
+          "rating": "IP 20",
+          "driver": ["Phillips", "Fulham", "Osram"],
+          "housing": "Aluminium Die Casting",
+          "galleryimg": [
+            "assets/products/14VENUSSPOTLIGHT/ARP_6280copy.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6281 copy.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6283.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6285 copy.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6286.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6290 copy.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6291 copy.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6293.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6294copy.jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6295copy.jpg",
+            "assets/products/14VENUSSPOTLIGHT/back.jpg",
+            "assets/products/14VENUSSPOTLIGHT/back (2).jpg",
+            "assets/products/14VENUSSPOTLIGHT/ARP_6288 copy...jpg"
+
+        ]
+        },
+        {
+          "Srno": 15,
+          "name": "WALL WASHER SPOT LIGHT",
+          "Category": "Indoor Light",
+          "SubCategory": "",
+          "Wattage": ["12W", "15W", "22W", "30W", "40W"],
+          "cct": ["3000K", "4000K", "6500K"],
+          "beam": ["40°"],
+          "ProductCode": "",
+          "ImgUrl": "assets/products/15WALLWASHERSPOTLIGHT/GLANZAWALLWASHERCHROME.jpg",
+          "description": "",
+          "led": ["Cree", "Bridgelux"],
+          "maxlumen": "120-140Lm/W",
+          "rating": "IP 20",
+          "driver": ["Phillips", "Fulham", "Osram"],
+          "housing": "Aluminium Die Casting",
+          "galleryimg": [
+            "assets/products/15WALLWASHERSPOTLIGHT/GLANZA WALL WASHER BLACK.jpg",
+            "assets/products/15WALLWASHERSPOTLIGHT/GLANZAWALLWASHERCHROME.jpg"
+
+    
+        ]
+        },
+        {
+          "Srno": 16,
+          "name": "RIO FIX DOWN LIGHT",
+          "Category": "Indoor Light",
+          "SubCategory": "",
+          "Wattage": ["12W", "15W", "22W", "30W", "40W"],
+          "cct": ["3000K", "4000K", "6500K"],
+          "beam": ["24°", "36°", "60°"],
+          "ProductCode": "",
+          "ImgUrl": "assets/products/16RIOFIXDOWNLIGHT/DSC_9416.jpg",
+          "description": "",
+          "led": ["Cree", "Bridgelux"],
+          "maxlumen": "120-140Lm/W",
+          "rating": "IP 20",
+          "driver": ["Phillips", "Fulham", "Osram"],
+          "housing": "Aluminium Die Casting",
+          "galleryimg": [
+            "assets/products/16RIOFIXDOWNLIGHT/DSC_9414.jpg",
+            "assets/products/16RIOFIXDOWNLIGHT/DSC_9416.jpg",
+            "assets/products/16RIOFIXDOWNLIGHT/DSC_9417.jpg",
+            "assets/products/16RIOFIXDOWNLIGHT/DSC_9418.jpg",
+            "assets/products/16RIOFIXDOWNLIGHT/DSC_9419.jpg",
+            "assets/products/16RIOFIXDOWNLIGHT/DSC_9421.jpg",
+            "assets/products/16RIOFIXDOWNLIGHT/RIO FIX.jpeg"
+
+        ]
+        },
+        {
+          "Srno": 17,
+          "name": "MASH MOVABLE DOWN LIGHT",
+          "Category": "Indoor Light",
+          "SubCategory": "",
+          "Wattage": ["4W", "8W", "12W", "15W", "20W", "30W", "40W", "50W"],
+          "cct": ["3000K", "4000K", "6500K"],
+          "beam": ["24°", "36°", "60°"],
+          "ProductCode": "",
+          "ImgUrl": "assets/products/17MASHMOVABLEDOWNLIGHT/ARP_6296copy.jpg",
+          "description": "",
+          "led": ["Cree", "Bridgelux"],
+          "maxlumen": "120-140Lm/W",
+          "rating": "IP 20",
+          "driver": ["Phillips", "Fulham", "Osram"],
+          "housing": "Aluminium Die Casting",
+          "galleryimg": [
+            "assets/products/17MASHMOVABLEDOWNLIGHT/ARP_6296copy.jpg",
+            "assets/products/17MASHMOVABLEDOWNLIGHT/ARP_6297.jpg",
+            "assets/products/17MASHMOVABLEDOWNLIGHT/ARP_6298.jpg",
+            "assets/products/17MASHMOVABLEDOWNLIGHT/ARP_6299 copy.jpg"
+
+        ]
+        },
+        {
+          "Srno": 18,
+          "name": "MOVABLE DOWN LIGHT",
+          "Category": "Indoor Light",
+          "SubCategory": "",
+          "Wattage": ["15W", "20W", "25W", "30W"],
+          "cct": ["3000K", "4000K", "6500K"],
+          "beam": ["24°", "36°", "60°"],
+          "ProductCode": "",
+          "ImgUrl": "assets/products/18MOVABLEDOWNLIGHT/ARP_6088copy.jpg",
+          "description": "",
+          "led": ["Cree", "Bridgelux"],
+          "maxlumen": "120-140Lm/W",
+          "rating": "IP 20",
+          "driver": ["Phillips", "Fulham", "Osram"],
+          "housing": "Aluminium Die Casting",
+          "galleryimg": [
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6080 copy.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6088copy.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6093copy.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6098 copy.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6099.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6107 copy.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6120 copy.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6122 copy.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6124.jpg",
+            "assets/products/18MOVABLEDOWNLIGHT/ARP_6126 copy.jpg"
+
+        ]
+        }
+,   
+    {
+      "Srno": 19,
+      "name": "12W X1 / 12W X2 GIMBAL DOWN LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["6W", "12W", "6X6W", "12X12W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["24°", "36°", "60°"],
+      "ProductCode": "",
+      "ImgUrl": "",
+      "description": "",
+      "led": ["Cree", "Bridgelux"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "Size": ""
+    },
+    {
+      "Srno": 20,
+      "name": "25/30 GIMBAL DOWN LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["25W", "30W", "25W + 25W", "30W + 30W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["24°", "36°", "60°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/20-25-30GIMBALDOWNLIGHT/_ARP9583.jpg",
+      "description": "",
+      "led": ["Cree", "Bridgelux"],
+      "maxlumen": "130Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/20-25-30GIMBALDOWNLIGHT/_ARP9583.jpg",
+        "assets/products/20-25-30GIMBALDOWNLIGHT/_ARP9586.jpg",
+        "assets/products/20-25-30GIMBALDOWNLIGHT/_ARP9588.jpg",
+        "assets/products/20-25-30GIMBALDOWNLIGHT/_ARP9590.jpg",
+        "assets/products/20-25-30GIMBALDOWNLIGHT/_ARP9594.jpg"
+
+    ]
+    },
+    {
+      "Srno": 21,
+      "name": "ZOOM LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["10W", "25W", "30W", "40W", "50W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["24°", "36°", "60°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/21ZOOMLIGHT/ARP_5481copy.jpg",
+      "description": "",
+      "led": ["Cree", "Bridgelux"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/21ZOOMLIGHT/ARP_5478 copy.jpg",
+        "assets/products/21ZOOMLIGHT/ARP_5481copy.jpg",
+        "assets/products/21ZOOMLIGHT/ARP_5485 copy.jpg",
+        "assets/products/21ZOOMLIGHT/ARP_5493 copy.jpg",
+        "assets/products/21ZOOMLIGHT/ARP_5496 copy.jpg"
+
+    ]
+    },
+    {
+      "Srno": 22,
+      "name": "DEEP DOWN LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["12W", "18W", "24W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/22DEEPDOWNLIGHT/REMOVED.PNG",
+      "description": "",
+      "led": ["Bridgelux"],
+      "maxlumen": "100Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+     "galleryimg": [
+    "assets/products/22DEEPDOWNLIGHT/8w-deep-downlight-500x500.webp",
+    "assets/products/22DEEPDOWNLIGHT/12w-deep-downlight-1000x1000.webp",
+    "assets/products/22DEEPDOWNLIGHT/product-jpeg-500x500.webp",
+    "assets/products/22DEEPDOWNLIGHT/whatsapp-image-2023-03-13-at-2-52-20-pm-1--500x500.webp",
+    "assets/products/22DEEPDOWNLIGHT/whatsapp-image-2023-03-13-at-2-52-21-pm-500x500.webp"
+]
+
+    },
+    {
+      "Srno": "23A",
+      "name": "SQUARE PANEL ",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["8W", "12W", "18W", "24W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/23ASQUAREPANEL/_ARP9646.jpg",
+      "description": "",
+      "led": ["Bridgelux"],
+      "maxlumen": "100Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/23ASQUAREPANEL/_ARP9646.jpg",
+        "assets/products/23ASQUAREPANEL/_ARP9647.jpg",
+        "assets/products/23ASQUAREPANEL/_ARP9649.jpg"
+
+    ]
+    },
+    {
+        "Srno": "23B",
+        "name": "ROUND PANEL ",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["8W", "12W", "18W", "24W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": [],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/23BROUNDPANEL/_ARP9652.jpg",
+        "description": "",
+        "led": ["Bridgelux"],
+        "maxlumen": "100Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+          "assets/products/23BROUNDPANEL/_ARP9651.jpg",
+          "assets/products/23BROUNDPANEL/_ARP9652.jpg",
+          "assets/products/23BROUNDPANEL/_ARP9653.jpg"
+  
+      ]
+      },
+      {
+        "Srno": "23C",
+        "name": "RIO FIX SURFACE PANEL ",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["8W", "12W", "18W", "24W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": [],
+        "ProductCode": "",
+        "ImgUrl":  "assets/products/23CRIOFIXSURFACEPANEL/DSC_9403.jpg",
+        "description": "",
+        "led": ["Bridgelux"],
+        "maxlumen": "100Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9383.jpg",
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9386.jpg",
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9390.jpg",
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9392.jpg",
+           "assets/products/23CRIOFIXSURFACEPANEL/DSC_9399.jpg",
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9403.jpg",
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9406.jpg",
+           "assets/products/23CRIOFIXSURFACEPANEL/DSC_9410.jpg",
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9411.jpg",
+          "assets/products/23CRIOFIXSURFACEPANEL/DSC_9413.jpg"
+
+      ]
+      },
+    {
+      "Srno": 24,
+      "name": "RECESSED DOWN LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["8W", "12W", "18W", "24W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/24RECESSEDDOWNLIGHT/021A6241.png",
+      "description": "",
+      "led": ["Bridgelux", "Lumileds", "Seoul"],
+      "maxlumen": "120Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/24RECESSEDDOWNLIGHT/021A6235.png",
+        "assets/products/24RECESSEDDOWNLIGHT/021A6236.png",
+        "assets/products/24RECESSEDDOWNLIGHT/021A6240.png",
+        "assets/products/24RECESSEDDOWNLIGHT/021A6241.png"
+
+    ]
+    },
+    {
+      "Srno": 25,
+      "name": "PANEL LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["24W", "36W", "40W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/25PANELLIGHT/2x2RecessedDownlightt.jpg",
+      "description": "",
+      "led": ["Bridgelux", "Lumileds", "Seoul"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/25PANELLIGHT/2x2RecessedDownlightt.jpg",
+        "assets/products/25PANELLIGHT/021A6351.png",
+        "assets/products/25PANELLIGHT/WhatsApp Image 2020-03-26 at 1.22.51 PM (26).jpeg"
+
+    ]
+    },
+    {
+      "Srno": 26,
+      "name": "CLEAN ROOM LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["24W", "48W", "60W", "80W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/26CLEANROOMLIGHT/clean_room_1.png",
+      "description": "",
+      "led": ["Bridgelux", "Lumileds", "Seoul"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+    "assets/products/26CLEANROOMLIGHT/clean room.png",
+   "assets/products/26CLEANROOMLIGHT/clean_room_1.png",
+    "assets/products/26CLEANROOMLIGHT/led-1x1-clean-room-panel-light-250x250.webp"
+]
+    },
+    {
+      "Srno": 27,
+      "name": "2022 TRACK LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["10W", "20W", "30W", "40W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["24°", "36°", "60°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/272022TRACKLIGHT/DSC_8953.jpg",
+      "description": "",
+      "led": ["Cree", "Bridgelux"],
+      "maxlumen": "130Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+     "galleryimg": [
+    "assets/products/272022TRACKLIGHT/DSC_8707.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8708.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8738.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8750.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8754.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8777.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8779.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8825.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8836.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8847.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8937.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8946.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8953.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8960.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8979 (1).jpg",
+    "assets/products/272022TRACKLIGHT/DSC_8979.jpg",
+    "assets/products/272022TRACKLIGHT/DSC_9005.JPG",
+    "assets/products/272022TRACKLIGHT/DSC_9012.JPG",
+    "assets/products/272022TRACKLIGHT/DSC_9014.JPG",
+    "assets/products/272022TRACKLIGHT/DSC_9016.JPG"
+]
+
+    },
+    {
+      "Srno": 28,
+      "name": "FB TRACK LIGHT WITH ARM",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["20W", "30W", "40W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["24°", "36°", "60°"],
+      "ProductCode": "",
+      "ImgUrl":   "assets/products/28FBTRACKLIGHTWITHARM/DSC_8908.jpg",
+      "description": "",
+      "led": ["Cree", "Bridgelux"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/28FBTRACKLIGHTWITHARM/DSC_8890.jpg",
+        "assets/products/28FBTRACKLIGHTWITHARM/DSC_8908.jpg",
+        "assets/products/28FBTRACKLIGHTWITHARM/DSC_8909.jpg",
+        "assets/products/28FBTRACKLIGHTWITHARM/DSC_8913.jpg",
+        "assets/products/28FBTRACKLIGHTWITHARM/DSC_8930.jpg"
+
+
+    ]
+    },
+    {
+        "Srno": 29,
+        "name": "FB TRACK",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["20W", "30W", "40W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["24°", "36°", "60°"],
+        "ProductCode": "",
+        "ImgUrl":  "assets/products/29FBTRACK/_ARP9519.JPG",
+        "description": "",
+        "led": ["Cree", "Bridgelux"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+          "assets/products/29FBTRACK/_ARP9491.JPG",
+          "assets/products/29FBTRACK/_ARP9511.JPG",
+          "assets/products/29FBTRACK/_ARP9519.JPG",
+          "assets/products/29FBTRACK/_ARP9537.JPG",
+          "assets/products/29FBTRACK/_ARP9556.JPG",
+          "assets/products/29FBTRACK/_ARP9558.JPG"
+  
+  
+      ]
+      },
+    {
+      "Srno": 30,
+      "name": "TILTABLE CONCEALED LIGHT",
+      "Category": "Indoor Light",
+      "SubCategory": "",
+      "Wattage": ["10W", "12W", "15W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["24°", "40°", "60°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/30TILTABLECONCEALEDLIGHT/Screenshot(21).png",
+      "description": "",
+      "led": ["Cree", "Bridgelux"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 20",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+     "galleryimg": [
+    "assets/products/30TILTABLECONCEALEDLIGHT/Screenshot(21).png"
+  
+]
+    }
+  ,
+  
+    {
+        "Srno": 31,
+        "name": "TILTABLE SURFACE LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["10W", "12W", "15W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["24°", "40°", "60°"],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/31TILTABLESURFACELIGHT/Screenshot(22).png",
+        "description": "",
+        "led": ["Cree", "Bridgelux"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+    "assets/products/31TILTABLESURFACELIGHT/Screenshot(22).png"
+]
+    },
+    {
+        "Srno": 32,
+        "name": "2024 SURFACE",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["10W", "18W", "24W", "30W", "40W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["24°", "40°", "60°"],
+        "ProductCode": "",
+        "ImgUrl":"assets/products/322024SURFACE/DSC_9254.jpg",
+        "description": "",
+        "led": ["Cree", "Bridgelux"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/322024SURFACE/DSC_9241.jpg",
+            "assets/products/322024SURFACE/DSC_9242.jpg",
+            "assets/products/322024SURFACE/DSC_9244.jpg",
+            "assets/products/322024SURFACE/DSC_9246.jpg",
+            "assets/products/322024SURFACE/DSC_9251.jpg",
+            "assets/products/322024SURFACE/DSC_9252.jpg",
+            "assets/products/322024SURFACE/DSC_9253.jpg",
+            "assets/products/322024SURFACE/DSC_9254.jpg",
+            "assets/products/322024SURFACE/DSC_9256.jpg",
+            "assets/products/322024SURFACE/DSC_9258.jpg",
+            "assets/products/322024SURFACE/DSC_9259.jpg",
+            "assets/products/322024SURFACE/DSC_9260.jpg",
+            "assets/products/322024SURFACE/DSC_9261.jpg",
+            "assets/products/322024SURFACE/DSC_9262.jpg",
+            "assets/products/322024SURFACE/DSC_9263.jpg",
+            "assets/products/322024SURFACE/DSC_9264.jpg",
+            "assets/products/322024SURFACE/DSC_9267.jpg",
+            "assets/products/322024SURFACE/DSC_9268.jpg"
+    
+        ]
+    },
+    {
+        "Srno": 33,
+        "name": "SURFACE SQUARE COB",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["10W", "12W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["40°"],
+        "ProductCode": "",
+        "ImgUrl":"assets/products/33SURFACESQUARECOB/last.jpeg",
+        "description": "",
+        "led": ["Cree", "Bridgelux"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/33SURFACESQUARECOB/WhatsApp Image 2020-03-26 at 1.18.19 PM (3).jpeg",
+            "assets/products/33SURFACESQUARECOB/WhatsApp Image 2020-03-26 at 1.18.19 PM (4).jpeg",
+            "assets/products/33SURFACESQUARECOB/WhatsApp Image 2020-03-26 at 1.18.19 PM (5).jpeg",
+            "assets/products/33SURFACESQUARECOB/last.jpeg"
+    
+        ]
+    },
+    {
+        "Srno": 34,
+        "name": "SURFACE ROUND COB",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["7W", "10W", "12W", "15W", "18W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["40°"],
+        "ProductCode": "",
+        "ImgUrl":  "assets/products/34SURFACEROUNDCOB/DSC_9183.jpg",
+        "description": "",
+        "led": ["Cree", "Bridgelux"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+       "galleryimg": [
+    "assets/products/34SURFACEROUNDCOB/DSC_9034 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9037 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9040 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9042 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9047 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9049 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9054 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9055 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9122.jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9123.jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9144 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9145 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9205 (1).jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9175.jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9183.jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9184.jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9205.jpg",
+    "assets/products/34SURFACEROUNDCOB/DSC_9221 (1).jpg"
+]
+
+    },
+    {
+        "Srno": 35,
+        "name": "CURVE SURFACE",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["12W", "18W", "24W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["40°"],
+        "ProductCode": "",
+        "ImgUrl":"assets/products/35CURVESURFACE/ARP_6246.jpg",
+        "description": "",
+        "led": ["Cree", "Bridgelux"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/35CURVESURFACE/ARP_6246.jpg",
+           "assets/products/35CURVESURFACE/ARP_6247.jpg"
+        ]
+    },
+    {
+        "Srno": 36,
+        "name": "TILTABLE LASER LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["6W", "10W", "20W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["24°", "36°"],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/36TILTABLELASERLIGHT/3waytiltable.png",
+        "description": "",
+        "led": ["Bridgelux"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/36TILTABLELASERLIGHT/3waytiltable.png",
+            "assets/products/36TILTABLELASERLIGHT/3way tiltable laser blade.png",
+            "assets/products/36TILTABLELASERLIGHT/6 way tiltable black.png",
+            "assets/products/36TILTABLELASERLIGHT/6 way tiltable white.png",
+            "assets/products/36TILTABLELASERLIGHT/12way tiltable black.png",
+            "assets/products/36TILTABLELASERLIGHT/12way tiltable.png"
+    
+        ]
+    },
+    {
+        "Srno": 37,
+        "name": "LAZER BLADE DOWN LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["3W", "6W", "15W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": [],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/37LAZERBLADEDOWNLIGHT/TRIMLESSLASERBLADE4W.jpeg",
+        "description": "",
+        "led": ["Cree", "Bridgelux"],
+        "maxlumen": "",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting",
+        "galleryimg": [
+            "assets/products/37LAZERBLADEDOWNLIGHT/TRIMLESSLASERBLADE4W.jpeg",
+            "assets/products/37LAZERBLADEDOWNLIGHT/TRIMLESS LASER BLADE 12W.jpeg",
+            "assets/products/37LAZERBLADEDOWNLIGHT/TRIMLESSLASERBLADE20W.jpeg"
+    
+        ]
+    },
+    {
+        "Srno": 38,
+        "name": "T5 LED BATTEN LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["5W", "10W", "20W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": [],
+        "ProductCode": "",
+        "ImgUrl":  "assets/products/38T5LEDBATTENLIGHT/TPS_1969copy.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium & Polycarbonate (Housing Material)",
+        "galleryimg": [
+            "assets/products/38T5LEDBATTENLIGHT/021A6327.png",
+            "assets/products/38T5LEDBATTENLIGHT/021A6328.png",
+            "assets/products/38T5LEDBATTENLIGHT/TPS_1969copy.png"
+            ]
+    },
+    {
+        "Srno": 39,
+        "name": "T5 LED RETROFIT TUBELIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["10W", "20W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": [],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/39T5LEDRETROFITTUBELIGHT/TPS_1990copy.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium & Polycarbonate (Housing Material)",
+        "galleryimg": [
+            "assets/products/39T5LEDRETROFITTUBELIGHT/TPS_1990copy.png"
+            ]
+    },
+    {
+        "Srno": 40,
+        "name": "T8 LED BATTEN LIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["5W", "10W", "20W", "36W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": [],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/40T8LEDBATTENLIGHT/TPS_1981copy.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium",
+        "galleryimg": [
+            "assets/products/40T8LEDBATTENLIGHT/TPS_1981copy.png"
+            ]
+    }
+,
+    {
+        "Srno": 41,
+        "name": "T8 LED RETROFIT TUBELIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["10W", "20W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["", "", ""],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/41T8LEDRETROFITTUBELIGHT/TPS_1996copy.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium & Polycarbonate (Housing Material)",
+        "galleryimg": [
+            "assets/products/41T8LEDRETROFITTUBELIGHT/021A6325.png",
+            "assets/products/41T8LEDRETROFITTUBELIGHT/021A6326.png",
+            "assets/products/41T8LEDRETROFITTUBELIGHT/TPS_1996copy.png"
+            ]
+    },
+    {
+        "Srno": 42,
+        "name": "T5 LED LINKABLE TUBELIGHT",
+        "Category": "Indoor Light",
+        "SubCategory": "",
+        "Wattage": ["5W", "10W", "15W", "20W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["", "", ""],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/42T5LEDLINKABLETUBELIGHT/TPS_1983copy.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 20",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium",
+        "galleryimg": [
+            "assets/products/42T5LEDLINKABLETUBELIGHT/TPS_1983copy.png"
+            ]
+    },
+    {
+        "Srno": 43,
+        "name": "LED WEATHERPROOF LIGHT",
+        "Category": "Industrial Light, Outdoor Light",
+        "SubCategory": "",
+        "Wattage": ["18W", "36W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["", "", ""],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/43LEDWEATHERPROOFLIGHT/WEATHERPRROF.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 65",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Polycarbonate",
+        "galleryimg": [
+            "assets/products/43LEDWEATHERPROOFLIGHT/WEATHERPRROF.png"
+            ]
+    },
+    {
+        "Srno": 44,
+        "name": "LED OPTICAL FLOOD LIGHT",
+        "Category": "Outdoor Light",
+        "SubCategory": "",
+        "Wattage": ["50W", "100W", "150W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["60°", "90°"],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/44LEDOPTICALFLOODLIGHT/200wlensfloodlight.jpeg",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 65",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting"
+        ,
+        "galleryimg": [
+            "assets/products/44LEDOPTICALFLOODLIGHT/50w lens flood light.jpeg",
+            "assets/products/44LEDOPTICALFLOODLIGHT/100w lens flood light.jpeg",
+            "assets/products/44LEDOPTICALFLOODLIGHT/200wlensfloodlight.jpeg",
+            "assets/products/44LEDOPTICALFLOODLIGHT/back side.jpeg"
+            ]
+    },
+    {
+        "Srno": 45,
+        "name": "LED ECO OPTICAL FLOOD LIGHT",
+        "Category": "Outdoor Light",
+        "SubCategory": "",
+        "Wattage": ["30W", "50W", "100W", "150W", "200W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["60°", "90°"],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/45LEDECOOPTICALFLOODLIGHT/100W.jpeg",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 65",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting"
+        ,
+        "galleryimg": [
+            "assets/products/45LEDECOOPTICALFLOODLIGHT/30W.png",
+            "assets/products/45LEDECOOPTICALFLOODLIGHT/100W.jpeg",
+            "assets/products/45LEDECOOPTICALFLOODLIGHT/back.png"
+            ]
+    },
+    {
+        "Srno": 46,
+        "name": "LED FLOOD LIGHT PRIME OPTICAL",
+        "Category": "Outdoor Light",
+        "SubCategory": "",
+        "Wattage": ["75W", "100W", "150W", "200W", "300W", "400W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["60°", "90°"],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/46LEDFLOODLIGHTPRIMEOPTICAL/200W.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 65",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting"
+        ,
+        "galleryimg": [
+            "assets/products/46LEDFLOODLIGHTPRIMEOPTICAL/70W.png",
+            "assets/products/46LEDFLOODLIGHTPRIMEOPTICAL/200W.png",
+            "assets/products/46LEDFLOODLIGHTPRIMEOPTICAL/300W Back.png",
+            "assets/products/46LEDFLOODLIGHTPRIMEOPTICAL/300W.jpeg"
+            ]
+    },
+    {
+        "Srno": 47,
+        "name": "LED HIGHBAY LIGHT LENS FIXTURES",
+        "Category": "Industrial Light",
+        "SubCategory": "",
+        "Wattage": ["50W", "100W", "150W", "200W"],
+        "cct": ["3000K", "4000K", "6500K"],
+        "beam": ["90°"],
+        "ProductCode": "",
+        "ImgUrl": "assets/products/47LEDHIGHBAYLIGHTLENSFIXTURES/150W_5050.png",
+        "description": "",
+        "led": ["Bridgelux", "Seoul", "Lumileds"],
+        "maxlumen": "120-140Lm/W",
+        "rating": "IP 65",
+        "driver": ["Phillips", "Fulham", "Osram"],
+        "housing": "Aluminium Die Casting"
+        ,
+        "galleryimg": [
+            "assets/products/47LEDHIGHBAYLIGHTLENSFIXTURES/50W.jpeg",
+            "assets/products/47LEDHIGHBAYLIGHTLENSFIXTURES/150W_5050.png",
+            "assets/products/47LEDHIGHBAYLIGHTLENSFIXTURES/200W.png",
+            "assets/products/47LEDHIGHBAYLIGHTLENSFIXTURES/WhatsApp Image 2024-10-14 at 4.57.32 PM.jpeg",
+            "assets/products/47LEDHIGHBAYLIGHTLENSFIXTURES/WhatsApp Image 2024-10-14 at 11.24.44 AM.jpeg"
+
+            ]
+    }
+,
+    {
+      "Srno": 48,
+      "name": "LED HIGHBAY LIGHT GLASS FIXTURES",
+      "Category": "Industrial Light",
+      "SubCategory": "",
+      "Wattage": ["80W", "100W", "120W", "150W", "200W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["60°", "90°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/48LEDHIGHBAYLIGHTGLASSFIXTURES/100W.jpeg",
+      "description": "",
+      "led": ["Bridgelux", "Seoul", "Lumileds"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting"
+      ,
+        "galleryimg": [
+            "assets/products/48LEDHIGHBAYLIGHTGLASSFIXTURES/100W.jpeg",
+            "assets/products/48LEDHIGHBAYLIGHTGLASSFIXTURES/150W.jpeg"
+
+            ]
+    },
+    {
+      "Srno": 49,
+      "name": "LED LINEAR HIGHBAY LIGHT",
+      "Category": "Outdoor Light",
+      "SubCategory": "",
+      "Wattage": ["50W", "100W", "150W", "200W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["60°", "90°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG-20231221-WA0001.jpg",
+      "description": "",
+      "led": ["Bridgelux", "Seoul", "Lumileds"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting" ,
+      "galleryimg": [
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG_20231221_120249 (1).jpg",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG_20231221_120506.jpg",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG_20240603_102853.jpg",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG_20240603_102854.jpg",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG_20240603_104146 (1).jpg",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG_20240603_104152.jpg",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/IMG-20231221-WA0001.jpg",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/WhatsApp_Image_2025-01-07_at_11.59.23_AM-removebg-preview.png",
+          "assets/products/49LEDLINEARHIGHBAYLIGHT/WhatsApp_Image_2025-01-07_at_11.59.24_AM-removebg-preview.png"
+          ]
+    },
+    {
+      "Srno": 50,
+      "name": "LED OPTICAL STREET LIGHT",
+      "Category": "Outdoor Light",
+      "SubCategory": "",
+      "Wattage": ["24W", "32W", "50W", "72W", "100W", "150W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/50LEDOPTICALSTREETLIGHT/WhatsApp_Image_2024-11-29_at_1.02.37_PM-removebg-preview_cleanup.png",
+      "description": "",
+      "led": ["Bridgelux", "Seoul", "Lumileds"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+     "galleryimg": [
+          "assets/products/50LEDOPTICALSTREETLIGHT/WhatsApp_Image_2024-11-29_at_1.02.37_PM-removebg-preview_cleanup.png",
+          "assets/products/50LEDOPTICALSTREETLIGHT/WhatsApp_Image_2024-11-29_at_1.02.47_PM-removebg-preview_cleanup (1).png"
+          ]
+    },
+    {
+      "Srno": 51,
+      "name": "LED PRIME OPTICAL STREET LIGHT",
+      "Category": "Outdoor Light",
+      "SubCategory": "",
+      "Wattage": ["24W", "75W", "100W", "150W", "200W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["TYPE-II"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/51LEDPRIMEOPTICALSTREETLIGHT/24W.png",
+      "description": "",
+      "led": ["Bridgelux", "Seoul", "Lumileds"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+          "assets/products/51LEDPRIMEOPTICALSTREETLIGHT/24W.png",
+          "assets/products/51LEDPRIMEOPTICALSTREETLIGHT/75W.jpeg",
+          "assets/products/51LEDPRIMEOPTICALSTREETLIGHT/Screenshot__87_-removebg-preview.png"
+          ]
+    },
+    {
+      "Srno": 52,
+      "name": "SPIKE LIGHT",
+      "Category": "Outdoor Light",
+      "SubCategory": "",
+      "Wattage": ["5W", "12W", "20W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["40°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/52SPIKELIGHT/_ARP9595.jpg",
+      "description": "",
+      "led": ["Bridgelux", "Cree", "Lumileds"],
+      "maxlumen": "",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/52SPIKELIGHT/_ARP9595.jpg",
+        "assets/products/52SPIKELIGHT/ARP_6043copy.jpg",
+        "assets/products/52SPIKELIGHT/ARP_6044 copy.jpg",
+        "assets/products/52SPIKELIGHT/ARP_6052 copy.jpg",
+        "assets/products/52SPIKELIGHT/ARP_6065 copy.jpg"
+        ]
+    },
+    {
+      "Srno": 53,
+      "name": "UP/ DOWN",
+      "Category": "Outdoor Light",
+      "SubCategory": "",
+      "Wattage": ["7W", "7W + 7W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": ["20°", "40°", "60°"],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/53UP-DOWN/ARP_6275.jpg",
+      "description": "",
+      "led": ["Bridgelux", "Cree"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/53UP-DOWN/ARP_6257.jpg",
+        "assets/products/53UP-DOWN/ARP_6259.jpg",
+        "assets/products/53UP-DOWN/ARP_6262.jpg",
+        "assets/products/53UP-DOWN/ARP_6263.jpg",
+        "assets/products/53UP-DOWN/ARP_6266.jpg",
+        "assets/products/53UP-DOWN/ARP_6267.jpg",
+        "assets/products/53UP-DOWN/ARP_6268.jpg",
+        "assets/products/53UP-DOWN/ARP_6274.jpg",
+         "assets/products/53UP-DOWN/ARP_6276.jpg",
+        "assets/products/53UP-DOWN/ARP_6278.jpg"
+        ]
+    },
+    {
+      "Srno": 54,
+      "name": "POST TOP",
+      "Category": "OutdoorLight",
+      "SubCategory": "",
+      "Wattage": ["50W", "60W", "90W", "100W", "160W", "45W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/54POSTTOP/_ARP9664_1.jpg",
+      "description": "",
+      "led": ["Bridgelux"],
+      "maxlumen": "130Lm/W",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+  "assets/products/54POSTTOP/_ARP9664_1.jpg",
+  "assets/products/54POSTTOP/_ARP9664_2.jpg",
+  "assets/products/54POSTTOP/_ARP9664.jpg",
+  "assets/products/54POSTTOP/_ARP9668.jpg",
+  "assets/products/54POSTTOP/_ARP9673 (1).jpg",
+  "assets/products/54POSTTOP/_ARP9673.jpg",
+  "assets/products/54POSTTOP/_ARP9675.jpg",
+  "assets/products/54POSTTOP/_ARP9700 (2).jpg",
+  "assets/products/54POSTTOP/_ARP9700.jpg",
+  "assets/products/54POSTTOP/_ARP9714.jpg"
+]
+
+    },
+    {
+      "Srno": 55,
+      "name": "LED WELLGLASS LIGHT",
+      "Category": "IndustrialLight",
+      "SubCategory": "",
+      "Wattage": ["36W", "50W"],
+      "cct": ["3000K", "4000K", "6500K"],
+      "beam": [],
+      "ProductCode": "",
+      "ImgUrl": "assets/products/55LEDWELLGLASSLIGHT/back.png",
+      "description": "",
+      "led": ["Bridgelux", "Seoul", "Lumileds"],
+      "maxlumen": "120-140Lm/W",
+      "rating": "IP 65",
+      "driver": ["Phillips", "Fulham", "Osram"],
+      "housing": "Aluminium Die Casting",
+      "galleryimg": [
+        "assets/products/55LEDWELLGLASSLIGHT/Wellglass Light 50W.png",
+        "assets/products/55LEDWELLGLASSLIGHT/WhatsApp Image 2024-11-13 at 11.03.21 AM.jpeg",
+        "assets/products/55LEDWELLGLASSLIGHT/back.png"
+      ]
+    }
+  ]
+  

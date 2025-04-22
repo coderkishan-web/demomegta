@@ -1,0 +1,36 @@
+[
+    {
+      "title": "Swaminarayan Temples, Uganda (2022)",
+      "description": "We had the privilege of designing, supplying, and executing the installation of programmable LED lighting systems—both façade and interior—for one of the largest Swaminarayan Temples in East Africa, located in Uganda. The lighting setup featured advanced DALI and DMX control systems, enabling dynamic and programmable illumination tailored for architectural aesthetics and spiritual ambiance.",
+      "images": [
+        "assets/projects/Swaminarayan/img1.jpeg",
+        "assets/projects/Swaminarayan/img2.jpeg",
+        "assets/projects/Swaminarayan/img3.jpeg",
+        "assets/projects/Swaminarayan/img4.jpeg"
+      ],
+      "countno": 1
+    },
+    {
+      "title": "Imagica, Khopoli, India (2024)",
+      "description": "In 2024, we proudly supplied RGB Flood Lights and 2-in-1 Flood Lights to Imagica, located in Khopoli, Maharashtra, India. The lighting was specifically tailored for architectural highlighting, enhancing the park’s iconic structures with dynamic color-changing effects and precision illumination. The combination of RGB and 2-in-1 technology allowed for versatile lighting scenes that elevated the visual experience while maintaining energy efficiency.",
+      "images": [
+        "assets/projects/imagica/img1.jpeg",
+        "assets/projects/imagica/img2.jpeg",
+        "assets/projects/imagica/img3.jpeg",
+        "assets/projects/imagica/img4.jpeg"
+      ],
+      "countno": 2
+    },
+    {
+      "title": "72 Jinalaya, Kutch, Gujarat (2025)",
+      "description": "In 2025, we had the honor of illuminating one of the most iconic and spiritually significant Jain temple complexes in Gujarat — 72 Jinalaya, located in in Koday village, Kutch district of Gujarat, India. As part of this prestigious project, we provided a comprehensive architectural lighting solution, carefully designed to enhance the temple’s grandeur while respecting its sacred ambiance.",
+      "images": [
+        "assets/projects/Jinalaya/img1.jpeg",
+        "assets/projects/Jinalaya/img2.jpeg",
+        "assets/projects/Jinalaya/img3.jpeg",
+        "assets/projects/Jinalaya/img4.jpeg"
+      ],
+      "countno": 3
+    }
+  ]
+  

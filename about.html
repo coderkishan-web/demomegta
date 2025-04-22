@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    
+
+    <title>About Us</title>
+</head>
+<body>
+    
+   
+  
+  
+    
+	<nav class="w-full fixed top-0 bg-white flex items-center justify-between px-6 lg:px-28 py-3 border-b border-gray-300 z-50">
+    <!-- Left Section: Logo -->
+    <div class="flex items-center space-x-2">
+        <a href="index.html"><img src="assets/logo.png" alt="Mega-Tech Logo" class="lg:h-14 h-10"></a>
+    </div>
+    
+    <!-- Center Section: Links (default for desktop) -->
+    <ul class="hidden md:flex space-x-10 text-lg font-medium text-black">
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="about.html">About</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div>
+        <a href="" class="pagination-button hidden md:block" >
+            Get Brochure
+        </a>
+     </div>
+    
+        
+            <!-- Hamburger Icon (visible on mobile/tablet) -->
+            <div class="md:hidden flex items-center cursor-pointer" id="hamburger-icon">
+                <i class="fas fa-bars text-3xl text-black"></i>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden">
+            <div class="w-2/3 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out " id="side-menu">
+                <div class="flex justify-end p-4">
+                    <button id="close-menu" class="text-3xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+              <div class="flex flex-col justify-center items-center gap-10">
+                <ul class="flex flex-col items-center space-y-6 mt-10 text-xl font-medium text-black" id="menu-links">
+                    <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="index.html">Home</a></li>
+                    <li class="hover:text-[#9B1C1C] cursor-pointer active"><a href="about.html">About</a></li>
+                <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="products.html">Products</a></li>
+        <li class="hover:text-[#9B1C1C] cursor-pointer "><a href="projects.html">Projects</a></li>
+
+                <li class="hover:text-[#9B1C1C] cursor-pointer"><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="" class="pagination-button " >
+                    Get Brochure
+                </a>
+                <div class=" flex space-x-4">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook text-2xl transition-transform transform hover:scale-110 hover:text-blue-600"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter text-2xl transition-transform transform hover:scale-110 hover:text-blue-400"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram text-2xl transition-transform transform hover:scale-110 hover:text-pink-600"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+            
+	
+      
+    <!--About Hero Section Starts -->
+    <section class="relative bg-red-900  text-white  md:mt-12 overflow-hidden h-auto lg:h-[50vh] flex items-center mt-12">
+        <!-- Background Image Layer -->
+        <div class="absolute inset-0 bg-[url('assets/megatech.jpg')] bg-cover bg-center "></div>
+  
+  
+        <!-- Content Container -->
+        <div class="relative container mx-auto py-16 px-8 md:px-40 text-center w-full">
+          <h1 class="text-3xl md:text-5xl font-Playfair">About Us</h1>
+          
+        </div>
+  
+        <!-- Breadcrumbs -->
+        <nav class="absolute bottom-6 left-8 md:left-40 text-sm md:text-base font-Helvetica">
+          <ul class="flex items-center space-x-2 md:space-x-4 text-gray-300">
+            <li>
+              <a href="index.html" class="hover:text-white transition-colors">Home</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="about.html" class="text-white font-medium">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!--About Hero Section Ends -->
+  
+          
+      <div class="relative bg-gray-100 px-6 md:px-20 overflow-hidden">
+
+        <!-- Main Section -->
+        <section class="max-w-7xl mx-auto py-16 flex flex-col lg:flex-row items-center gap-10 md:gap-20" data-aos="fade-up">
+          
+          <!-- Images Section -->
+          <div class="w-full lg:w-1/2 flex justify-center items-center relative" data-aos="zoom-in">
+            <video src="assets/WhatsApp Video 2025-03-06 at 2.00.49 PM (1).mp4" muted autoplay loop class="w-full shadow-lg transition-transform transform"></video>
+          </div>
+      
+          <!-- Content Section -->
+          <div class="w-full lg:w-1/2 p-6 sm:p-8" data-aos="fade-left">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-medium text-red-900 pb-4 mb-2">
+              MEGATECH Solutions
+            </h2>
+            <hr class="border-[#cd5634] w-28 sm:w-32 md:w-40 mb-4" data-aos="fade-left">
+            <h3 class="text-lg sm:text-xl md:text-2xl font-medium">
+              MEGATECH is a leading manufacturer of LED lights and a provider of lighting solution hardware in India. The company is currently based in Mumbai.
+            </h3>
+            <p class="mt-4 text-sm sm:text-base md:text-md leading-relaxed" data-aos="fade-left">
+              MEGATECH was established in 2013 in Mumbai by Mr. Ruchik Soni, who has a technical background in Electronics Engineering. After completing his engineering degree, he secured an internship at an LED lighting production company. This experience proved to be instrumental in laying the foundation for what would become a successful multinational company in the LED lighting industry.
+              <br><br>
+              We offer a wide range of LED lights and solar panels that work great for homes, businesses, industrial spaces, highways, and pretty much any indoor or outdoor setup. MEGATECH has been a go-to partner for top global brands, helping light up everything from architectural projects to interiors, warehouses, and more..... 
+              <a id="readmore" href="#" class="text-red-600 underline">Read More..</a>
+            </p>
+      
+            <!-- Icons Section -->
+            <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center text-red-800">
+              <div class="transition-transform transform hover:scale-110">
+                <i class="fas fa-lightbulb text-4xl"></i>
+                <p class="mt-2 text-xs sm:text-sm font-semibold">LED<br>Lights</p>
+              </div>
+              <div class="transition-transform transform hover:scale-110">
+                <i class="fas fa-solar-panel text-4xl"></i>
+                <p class="mt-2 text-xs sm:text-sm font-semibold">Solar<br>Lights</p>
+              </div>
+              <div class="transition-transform transform hover:scale-110">
+                <i class="fas fa-charging-station text-4xl"></i>
+                <p class="mt-2 text-xs sm:text-sm font-semibold">LED<br>Drivers</p>
+              </div>
+              <div class="transition-transform transform hover:scale-110">
+                <i class="fas fa-tools text-4xl"></i>
+                <p class="mt-2 text-xs sm:text-sm font-semibold">Lighting<br>Solutions</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Dropdown Full Width Read More Section -->
+        <div id="dropdownContent" class="hidden w-full bg-white border-t border-gray-300 shadow-inner py-10 px-4 sm:px-10 lg:px-32 animate__animated" data-aos="fade-down" style="background-image: url(assets/bgb.jpeg); background-size: contain;">
+          <div class="max-w-7xl mx-auto text-sm sm:text-base leading-relaxed text-gray-800">
+            <p>
+              At <span class="text-red-700">MEGATECH</span>, we started with a clear vision: to bring you top-quality LED lighting products at prices that make sense.
+              We truly believe in “Total Quality Assurance with Customer Satisfaction”, and that’s more than just a slogan to us—it’s the heart of everything we do.
+              <br><br>
+              We know that when it comes to lighting, you need products that are reliable, functional, and cost-effective—not just for today, but for the long run. That’s why every MEGATECH product is built with thoughtful design and high-quality hardware.
+              <br><br>
+              Thanks to our solid systems, we’re able to constantly improve across the board—whether it’s sales, manufacturing, purchasing, customer service, or the products themselves. This helps us deliver the best in QCDS: Quality, Cost, Delivery Time, and Service—all for you, our valued customer.
+              <br><br>
+              We have worked on projects with reputed builders such as Rizvi, Rustomjee, and Hiranandani, and with corporate clients like Mphasis, Jindal Saw Ltd., and Maersk. We were also privileged to have the opportunity to work with the Reserve Bank of India.
+              <br><br>
+              We kicked off our journey in 2019 by starting our export business, supplying LED lights for Maersk Tankers' vessels. We began with locations in Dubai, Singapore, and the Netherlands. We also started exports to Supermarkets in Africa since 2020.
+              <br><br>
+              We also provide OEM manufacturing services and have had the opportunity to collaborate with Indian Railways through our OEM customers.
+            </p>
+            <button id="hideBtn" class="mt-6 text-red-600 underline text-sm">Hide</button>
+          </div>
+        </div>
+      </div>
+      
+
+    
+     
+      <!-- About Section End -->
+       <!-- vision -->
+       <div class="bg-gray-100  px-6 md:px-20 overflow-hidden">
+        <section class="max-w-7xl mx-auto py-16 flex flex-col md:flex-row items-center gap-10 lg:gap-20" data-aos="fade-up">
+        
+        
+          <!-- Content Section -->
+          <div class="w-full lg:w-1/2 p-6 sm:p-8" data-aos="fade-left">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-medium text-red-900 pb-4 mb-2">
+               Our Vision
+
+            </h2>
+            <hr class="border-[#cd5634] w-28 sm:w-32 md:w-40 mb-4" data-aos="fade-left">
+          
+            <p class="mt-4 text-sm sm:text-base md:text-md leading-relaxed" data-aos="fade-left">
+                Our commitment is to foster a harmonious balance between technology, humanity, and the environment, positioning ourselves as a forward-thinking and positive contributor to global progress. At Megatech, we strive to deliver the highest standards in Product, Quality, Cost, Service, and Relationships to our customers. We are deeply committed to a sustainable, greener future and take pride in leading initiatives that support this vision. With the unwavering dedication of our team of engineers and researchers, we continuously work towards establishing new benchmarks of excellence.</p>
+
+           
+              
+              
+          </div>
+            <!-- Images Section -->
+          <div class="w-full lg:w-1/2 flex justify-center items-center relative" data-aos="zoom-in">
+            <img src="assets/fr-2.png" alt="Product Image" 
+              class="w-[80%] max-w-xs md:max-w-md  shadow-lg transition-transform transform h-96 object-cover">
+          </div>
+
+        </section>
+      </div>
+<!-- content  -->
+    <div class="w-full h-auto bg-gray-600">
+  
+
+  <!-- Values Section with improved visibility -->
+<div class="bg-gray-100 py-24">
+    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1A1A1A] text-center mb-16"
+        data-aos="fade-up"
+        data-aos-duration="800">
+        Our Core Values
+        <span class="block mt-2 text-xl sm:text-2xl text-[#7a1c1c]">What Sets Us Apart</span>
+    </h2>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
+            <!-- Value Card 1 -->
+            <div class="group bg-white p-8 rounded-xl shadow-lg border border-[#D7A77F] transform hover:-translate-y-2 transition-all duration-500"
+                 data-aos="zoom-in"
+                 data-aos-duration="800">
+                <div class="w-16 h-16 bg-[#7a1c1c] rounded-full flex items-center justify-center mb-6 group-hover:animate-bounce">
+                    <i class="fas fa-lightbulb text-white text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-[#7a1c1c] mb-4">Energy Efficiency</h3>
+                <p class="text-lg text-gray-700 leading-relaxed">Providing cutting-edge LED lights that reduce energy consumption and lower electricity bills.</p>
+            </div>
+
+            <!-- Value Card 2 -->
+            <div class="group bg-white p-8 rounded-xl shadow-lg border border-[#D7A77F] transform hover:-translate-y-2 transition-all duration-500"
+                 data-aos="zoom-in"
+                 data-aos-duration="800"
+                 data-aos-delay="200">
+                <div class="w-16 h-16 bg-[#7a1c1c] rounded-full flex items-center justify-center mb-6 group-hover:animate-bounce">
+                    <i class="fas fa-tachometer-alt text-white text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-[#7a1c1c] mb-4">High Performance</h3>
+                <p class="text-lg text-gray-700 leading-relaxed">Delivering superior lighting solutions with long-lasting performance and durability.</p>
+            </div>
+
+            <!-- Value Card 3 -->
+            <div class="group bg-white p-8 rounded-xl shadow-lg border border-[#D7A77F] transform hover:-translate-y-2 transition-all duration-500"
+                 data-aos="zoom-in"
+                 data-aos-duration="800"
+                 data-aos-delay="400">
+                <div class="w-16 h-16 bg-[#7a1c1c] rounded-full flex items-center justify-center mb-6 group-hover:animate-bounce">
+                    <i class="fas fa-leaf text-white text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-[#7a1c1c] mb-4">Sustainable Design</h3>
+                <p class="text-lg text-gray-700 leading-relaxed">Focusing on environmentally friendly designs and sustainable materials for a greener future.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+          
+       <!-- footer starts -->
+	  <footer class="bg-[#FFFFFF] py-18 px-6 sm:px-10 lg:px-20 relative overflow-hidden font-[Poppins]">
+      <div class="container mx-auto flex flex-col lg:flex-row gap-10">
+        
+        <!-- Logo and Description -->
+        <div data-aos="fade-right" class="lg:w-[30%] w-full">
+        <div class="flex items-center space-x-2">
+          <img src="assets/logo.png" alt="megatexh Logo" class="w-full max-w-xs lg:max-w-sm">
+        </div>
+        <p class="mt-5 text-gray-900">
+          But also the leap into electronic typesetting, remaining essentially unchanged. 
+          It was popularised in the 1960s with the release of Letraset sheets con
+        </p>
+        </div>
+    
+        <!-- Footer Links -->
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+    
+        <!-- Categories -->
+        <div data-aos="fade-up" data-aos-delay="100">
+          <h3 class="text-red-600 font-semibold mb-4 text-xl">Categories</h3>
+          <ul class="text-gray-900 space-y-2">
+          <li><a href="#" class="hover:text-red-600 ">Home</a></li>
+                          <li><a href="#" class="hover:text-red-600">Shop</a></li>
+                          <li><a href="#" class="hover:text-red-600">About</a></li>
+                          <li><a href="#" class="hover:text-red-600">Contact</a></li>
+          </ul>
+        </div>
+    
+        
+        <div data-aos="fade-up" data-aos-delay="200">
+          <h3 class="text-xl font-semibold text-red-600 ">Help</h3>
+          <ul class="mt-4 space-y-2 text-gray-900">
+            <li><a href="#" class=" hover:text-red-600">Payment Options</a></li>
+            <li><a href="#" class=" hover:text-red-600">Returns</a></li>
+            <li><a href="#" class=" hover:text-red-600">Privacy Policies</a></li>
+          </ul>
+        </div>
+    
+        <!-- Legal -->
+        <div data-aos="fade-up" data-aos-delay="300">
+          <h3 class="text-red-600 font-semibold mb-4 text-xl">Legal</h3>
+          <ul class="text-gray-900 space-y-2">
+          <li class=" hover:text-red-600">Terms & Conditions</li>
+          <li class=" hover:text-red-600">Privacy Policy</li>
+          <li class=" hover:text-red-600">Cookie Notice</li>
+          <li class=" hover:text-red-600">Cookie Preferences</li>
+          <li class=" hover:text-red-600">Trust Center</li>
+          </ul>
+        </div>
+    
+        <!-- Contact Us -->
+        <div data-aos="fade-up" data-aos-delay="400">
+          <h3 class="text-red-600 font-semibold mb-4 text-xl">Contact Us</h3>
+          <p class="text-gray-900 flex items-center gap-2"><i class="fas fa-phone"></i>+91 22 60600525 / 9833926293</p>
+          <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Gala No.101, Siddhi Building, Square Industrial Park, Off. National Highway, Near Rudra Shelter Hotel, Tungarphata, Vasai East,
+          Palghar - 401208 Mumbai</p>
+        </div>
+        </div>
+      </div>
+    
+      <!-- Bottom bar -->
+      <div class="border-t border-red text-black mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-center gap-4">
+        <div class="flex space-x-4 text-black text-2xl">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="text-sm text-black font-bold">2024 Megatech. All rights reverved</p>
+      </div>
+      </footer>
+      <!-- footer ends -->        
+         <!-- Scroll to Top Button -->
+	   <button id="scrollToTopBtn" class="scroll-to-top-btn  text-white text-4xl  fixed bottom-4 right-4 bg-red-900 rounded-full p-2 ">
+        <i class="fa-regular fa-circle-up"></i>
+      </button>
+  
+  
+      <!-- WhatsApp Button HTML -->
+      <a class="whatsapp-button fixed bottom-4 left-4 bg-red-900 rounded-full p-2 " href="https://wa.me/9112000" target="_blank" title="Chat with us on WhatsApp"> 
+          <img src="assets/icons8-whatsapp.gif" alt="WhatsApp" class="whatsapp-icon rounded-full"/>
+      </a>
+          
+  <!-- Animate.css for smooth entry (optional, CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      
+    <script>
+        
+        document.addEventListener("DOMContentLoaded", function () {
+          const readMore = document.getElementById("readmore");
+          const moreContent = document.getElementById("moreContent");
+          const hideBtn = document.getElementById("hideBtn");
+      
+          readMore.addEventListener("click", function (e) {
+            e.preventDefault();
+            moreContent.classList.remove("hidden");
+            moreContent.classList.add("block");
+            readMore.classList.add("hidden");
+            AOS.refresh();
+          });
+      
+          hideBtn.addEventListener("click", function () {
+            moreContent.classList.add("hidden");
+            moreContent.classList.remove("block");
+            readMore.classList.remove("hidden");
+          });
+        });
+      
+        
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const sideMenu = document.getElementById("side-menu");
+    const closeMenu = document.getElementById("close-menu");
+    const menuLinks = document.querySelectorAll("#menu-links li a");
+
+    // Function to toggle the mobile menu
+    function toggleMenu() {
+        if (mobileMenu.classList.contains("hidden")) {
+            openMenu();
+        } else {
+            closeMobileMenu();
+        }
+    }
+
+    // Function to open the mobile menu
+    function openMenu() {
+        mobileMenu.classList.remove("hidden");
+        setTimeout(() => {
+            sideMenu.classList.remove("-translate-x-full");
+        }, 10);
+    }
+
+    // Function to close the mobile menu
+    function closeMobileMenu() {
+        sideMenu.classList.add("-translate-x-full");
+        setTimeout(() => {
+            mobileMenu.classList.add("hidden");
+        }, 300); // Matches transition duration
+    }
+
+    // Event listener to toggle the menu when clicking the hamburger icon
+    hamburgerIcon.addEventListener("click", toggleMenu);
+
+    // Event listener to close the menu when clicking the close button
+    closeMenu.addEventListener("click", closeMobileMenu);
+
+    // Event listener to close the menu when clicking outside the menu content
+    mobileMenu.addEventListener("click", function (event) {
+        if (!sideMenu.contains(event.target) && event.target !== hamburgerIcon) {
+            closeMobileMenu();
+        }
+    });
+
+    // Event listener to close the menu when clicking on a menu item
+    menuLinks.forEach(link => {
+        link.addEventListener("click", closeMobileMenu);
+    });
+});
+
+     // back to top button ------------------------------------------------------------------------
+     var mybutton = document.getElementById("scrollToTopBtn");
+
+if (mybutton) {
+    window.onscroll = function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.classList.add("show");
+        } else {
+            mybutton.classList.remove("show");
+        }
+    };
+
+    mybutton.onclick = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+}
+
+
+document.addEventListener("DOMContentLoaded", function () {
+          const readMore = document.getElementById("readmore");
+          const dropdown = document.getElementById("dropdownContent");
+          const hideBtn = document.getElementById("hideBtn");
+      
+          readMore.addEventListener("click", function (e) {
+            e.preventDefault();
+            dropdown.classList.remove("hidden");
+            dropdown.classList.add("block", "animate__fadeInDown");
+            readMore.classList.add("hidden");
+            AOS.refresh();
+          });
+      
+          hideBtn.addEventListener("click", function () {
+            dropdown.classList.add("hidden");
+            dropdown.classList.remove("block", "animate__fadeInDown");
+            readMore.classList.remove("hidden");
+          });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
