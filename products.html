@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Product Listing</title>
     <link href="./output.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- AOS CSS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
@@ -110,10 +111,14 @@
         </nav>
       </section>
       <!--About Hero Section Ends -->
- <div class="bg-gray-100 w-full min-h-screen py-20 grid items-center justify-center">
-    <div>
-        <input type="text" id="search-input" placeholder="Search by Name...">
-    </div>
+ <div class="bg-gray-100 w-full min-h-screen py-10 grid items-center justify-center">
+  <div class="flex justify-center item-start md:flex-row flex-col gap-10 w-full p-10">
+    <select id="" class="h-10 p-2 mt-6 border rounded category-dropdown overflow-hidden">
+     
+    </select>
+ 
+    <input type="text" id="search-input" placeholder="Search for a product..." class="mb-4  p-2 md:w-96 w-full border rounded">
+  </div>
     <div id="product-list"></div>
     <div id="pagination"></div>
  </div>
@@ -129,8 +134,7 @@
 			  <img src="assets/logo.png" alt="megatexh Logo" class="w-full max-w-xs lg:max-w-sm">
 			</div>
 			<p class="mt-5 text-gray-900">
-				But also the leap into electronic typesetting, remaining essentially unchanged. 
-				It was popularised in the 1960s with the release of Letraset sheets con
+			MEGATECH is the leading LED Lights manufacturer and lighting solution hardware providing company in India . MEGATECH is currently situated in Mumbai, Ahmedabad.
 			</p>
 		  </div>
 	
@@ -174,8 +178,7 @@
 			<div data-aos="fade-up" data-aos-delay="400">
 			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Contact Us</h3>
 			  <p class="text-gray-900 flex items-center gap-2"><i class="fas fa-phone"></i>+91 22 60600525 / 9833926293</p>
-			  <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Gala No.101, Siddhi Building, Square Industrial Park, Off. National Highway, Near Rudra Shelter Hotel, Tungarphata, Vasai East,
-				Palghar - 401208 Mumbai</p>
+			  <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Megatech, Gala no 302, Sapphire Ind. Estate, Near Diamond ind. Estate, Naikpada Road, Behind Burma Petrol Pump, Vasai (East), Dist. Palghar - 401208</p>
 			</div>
 		  </div>
 		</div>
@@ -188,7 +191,11 @@
 			<a href="#"><i class="fab fa-linkedin"></i></a>
 			<a href="#"><i class="fab fa-youtube"></i></a>
 		  </div>
-		  <p class="text-sm text-black font-bold">2024 Megatech. All rights reverved</p>
+		 <p class="text-sm text-black font-bold">
+  © 2024 Megatech. Designed and developed by 
+  <a href="https://benzenecorp.com/" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">BenzeneCorp</a>. All rights reserved.
+</p>
+
 		</div>
 	  </footer>
 	  <!-- footer ends -->

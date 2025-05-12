@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Details</title>
     <link href="./output.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- AOS CSS -->
@@ -117,7 +117,7 @@
   
         <!-- Content Container -->
         <div class="relative container mx-auto py-16 px-8 md:px-40 text-center w-full">
-          <h1 class="text-3xl md:text-5xl font-Playfair">Our Project </h1>
+          <h1 class="text-3xl md:text-5xl font-Playfair">Our Projects </h1>
           
         </div>
   
@@ -155,8 +155,7 @@
 			  <img src="assets/logo.png" alt="megatexh Logo" class="w-full max-w-xs lg:max-w-sm">
 			</div>
 			<p class="mt-5 text-gray-900">
-				But also the leap into electronic typesetting, remaining essentially unchanged. 
-				It was popularised in the 1960s with the release of Letraset sheets con
+			MEGATECH is the leading LED Lights manufacturer and lighting solution hardware providing company in India . MEGATECH is currently situated in Mumbai, Ahmedabad.
 			</p>
 		  </div>
 	
@@ -200,8 +199,7 @@
 			<div data-aos="fade-up" data-aos-delay="400">
 			  <h3 class="text-red-600 font-semibold mb-4 text-xl">Contact Us</h3>
 			  <p class="text-gray-900 flex items-center gap-2"><i class="fas fa-phone"></i>+91 22 60600525 / 9833926293</p>
-			  <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Gala No.101, Siddhi Building, Square Industrial Park, Off. National Highway, Near Rudra Shelter Hotel, Tungarphata, Vasai East,
-				Palghar - 401208 Mumbai</p>
+			  <p class="text-gray-900 flex items-start gap-2 mt-2"><i class="fas fa-map-marker-alt mt-1"></i>Megatech, Gala no 302, Sapphire Ind. Estate, Near Diamond ind. Estate, Naikpada Road, Behind Burma Petrol Pump, Vasai (East), Dist. Palghar - 401208</p>
 			</div>
 		  </div>
 		</div>
@@ -214,7 +212,11 @@
 			<a href="#"><i class="fab fa-linkedin"></i></a>
 			<a href="#"><i class="fab fa-youtube"></i></a>
 		  </div>
-		  <p class="text-sm text-black font-bold">2024 Megatech. All rights reverved</p>
+		 <p class="text-sm text-black font-bold">
+  © 2024 Megatech. Designed and developed by 
+  <a href="https://benzenecorp.com/" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">BenzeneCorp</a>. All rights reserved.
+</p>
+
 		</div>
 	  </footer>
 	  <!-- footer ends -->         
@@ -298,61 +300,71 @@ if (mybutton) {
     };
 }
 
-    fetch('projects.json')
-      .then(res => res.json())
-      .then(data => {
-        const container = document.getElementById('projects-container');
-    
-        data.forEach((project, index) => {
-          const projectHTML = `
-           <div 
-  class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-white p-6 rounded-2xl shadow-lg mb-10 lg:h-[50vh] h-auto"
-  data-aos="fade-up"
-  data-aos-duration="1000"
->
-  <div 
-    class="swiper swiper-${index} w-full"
-    data-aos="zoom-in"
-    data-aos-delay="200"
-  >
-    <div class="swiper-wrapper">
-      ${project.images.map(img => `
-        <div class="swiper-slide">
-          <img src="${img}" class="w-full h-96 object-cover rounded-xl" />
+   fetch('projects.json')
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById('projects-container');
+
+    data.forEach((project, index) => {
+      const projectHTML = `
+        <div 
+          class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-white p-6 rounded-2xl shadow-lg mb-10 lg:h-[50vh] h-auto"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div 
+            class="swiper swiper-${index} w-full swiper-hover-area"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <div class="swiper-wrapper">
+              ${project.images.map(img => `
+                <div class="swiper-slide">
+                  <img src="${img}" class="w-full h-96 object-cover rounded-xl" />
+                </div>
+              `).join('')}
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div 
+            class="flex flex-col justify-center w-full"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
+            <h3 class="text-4xl font-extrabold mb-4 text-red-800">${project.countno}</h3>
+            <h3 class="text-2xl lg:text-4xl font-semibold mb-4 text-red-700">${project.title}</h3>
+            <p class="text-gray-700 text-sm lg:text-lg leading-relaxed">${project.description}</p>
+          </div>
         </div>
-      `).join('')}
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
+      `;
 
-  <div 
-    class="flex flex-col justify-center w-full"
-    data-aos="fade-left"
-    data-aos-delay="400"
-  >
-    <h3 class="text-4xl font-extrabold mb-4 text-red-800">${project.countno}</h3>
-    <h3 class="text-2xl lg:text-4xl font-semibold mb-4 text-red-700">${project.title}</h3>
-    <p class="text-gray-700 text-sm lg:text-lg leading-relaxed">${project.description}</p>
-  </div>
-</div>
+      container.insertAdjacentHTML('beforeend', projectHTML);
 
-          `;
-    
-          container.insertAdjacentHTML('beforeend', projectHTML);
-    
-          new Swiper(`.swiper-${index}`, {
-            loop: true,
-            pagination: {
-              el: `.swiper-${index} .swiper-pagination`,
-              clickable: true,
-            },
-            autoplay: {
-              delay: 2000,
-              disableOnInteraction: false,
-            },
-          });
-        });
+      // Initialize Swiper
+      const swiperInstance = new Swiper(`.swiper-${index}`, {
+        loop: true,
+        pagination: {
+          el: `.swiper-${index} .swiper-pagination`,
+          clickable: true,
+        },
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
       });
+
+      // Pause on hover and resume on leave
+      const swiperContainer = document.querySelector(`.swiper-${index}`);
+      swiperContainer.addEventListener('mouseenter', () => {
+        swiperInstance.autoplay.stop();
+      });
+      swiperContainer.addEventListener('mouseleave', () => {
+        swiperInstance.autoplay.start();
+      });
+    });
+  });
+
     </script>
     
     <script src="script.js"></script>

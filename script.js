@@ -93,12 +93,14 @@ const productpagescroller = async () => {
     const productlistinproduct = await fetchProductData();
     let box = "";
 
-    productlistinproduct.forEach((product) => { 
+    productlistinproduct.forEach((product, index) => {
+        const productNumber = index + 0; 
+
         box += `
-            <a href="" class="card bg-white shadow-lg rounded-lg overflow-hidden inline-block">
+            <a href="product.html?id=${productNumber}" class="card bg-white shadow-lg rounded-lg overflow-hidden inline-block">
                 <img src="${product.ImgUrl}" alt="Megatech" class="w-full h-44 object-cover"/>
                 <div class="p-4 text-center">
-                    <p class="text-gray-700 font-medium ">${product.name}</p>
+                    <p class="text-gray-700 font-medium "> ${product.name}</p>
                 </div>
             </a>
         `;
@@ -109,6 +111,7 @@ const productpagescroller = async () => {
 
 productpagescroller();
 
+
 //  Product Details will be there in product.html
 const renderProductDetails = async () => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -116,78 +119,127 @@ const renderProductDetails = async () => {
     const products = await fetchProductData();
 
     const product = products[productId];
-    if (product) {
-        document.getElementById('product-name').textContent = product.name;
-        document.getElementById('product-name-title').textContent = product.name;
+   if (product) {
+  document.getElementById('product-name').textContent = product.name;
+  document.getElementById('product-name-title').textContent = product.name;
 
-        document.getElementById('product-name-desc').textContent = product.description;
-        document.getElementById('SrNo').textContent = product.Srno;
-        document.getElementById('product-price').textContent = product.ProductCode;
-        document.getElementById('category').textContent = product.Category;
-        document.getElementById('subcategory').textContent = product.SubCategory;
-        document.getElementById('Wattage').textContent = product.Wattage;
-        document.getElementById('CCT').textContent = product.cct;
-        document.getElementById('LUMEN').textContent = product.maxlumen;
-        document.getElementById('led').textContent = product.led;
-        document.getElementById('rating').textContent = product.rating;
-        document.getElementById('beam').textContent = product.beam;
-        document.getElementById('driver').textContent = product.driver;
-        document.getElementById('housematerial').textContent = product.housing ;
-        document.getElementById('Size').textContent = product.Size ;
+  document.getElementById('product-name-desc').textContent = product.description;
+  document.getElementById('SrNo').textContent = product.Srno;
+  document.getElementById('product-price').textContent = product.ProductCode;
+  document.getElementById('category').textContent = product.Category;
+  document.getElementById('subcategory').textContent = product.SubCategory;
+  document.getElementById('Wattage').textContent = product.Wattage;
+  document.getElementById('CCT').textContent = product.cct;
+  document.getElementById('LUMEN').textContent = product.maxlumen;
+  document.getElementById('led').textContent = product.led;
+  document.getElementById('rating').textContent = product.rating;
+  document.getElementById('beam').textContent = product.beam;
+  document.getElementById('driver').textContent = product.driver;
+  document.getElementById('housematerial').textContent = product.housing;
 
-        document.getElementById('product-image').src = product.ImgUrl;
+  document.getElementById('ColourTemp').innerHTML = `
+    ${product.ColourTemp || ''}
+    <span class="inline-block w-5 h-5 rounded-full border-2 border-black ml-2" style="background-color: #F4A623;"></span>
+    <span class="inline-block w-5 h-5 rounded-full border-2 border-black ml-2" style="background-color: #F8E71C;"></span>
+    <span class="inline-block w-5 h-5 rounded-full border-2 border-black ml-2" style="background-color: #D8ECFF;"></span>
+  `;
 
+  // Reflector
+  if (product.Reflector && product.Reflector.trim() !== "") {
+    document.getElementById('Reflector').textContent = product.Reflector;
+    document.getElementById('ReflectorContainer').style.display = 'flex';
+  } else {
+    document.getElementById('ReflectorContainer').style.display = 'none';
+  }
 
-       // Set gallery images
-const galleryContainer = document.getElementById('product-gallery');
-galleryContainer.innerHTML = '';
+  // Ring Colour
+  if (product.RingColour && product.RingColour.trim() !== "") {
+    document.getElementById('RingColour').textContent = product.RingColour;
+    document.getElementById('RingColourContainer').style.display = 'flex';
+  } else {
+    document.getElementById('RingColourContainer').style.display = 'none';
+  }
 
-if (product.galleryimg && Array.isArray(product.galleryimg)) {
-  product.galleryimg.forEach((imageSrc) => {
-    const thumb = document.createElement('img');
-    thumb.src = imageSrc;
-    thumb.className = "w-20 h-20 rounded-lg object-cover cursor-pointer border-2 border-transparent hover:border-[#7a1c1c] transition snap-start will-change-transform";
-    thumb.addEventListener('click', () => {
-      document.getElementById('product-image').src = imageSrc;
+  // Heatsink Colour
+  if (product.HeatsinkColour && product.HeatsinkColour.trim() !== "") {
+    document.getElementById('HeatsinkColour').textContent = product.HeatsinkColour;
+    document.getElementById('HeatsinkColourContainer').style.display = 'flex';
+  } else {
+    document.getElementById('HeatsinkColourContainer').style.display = 'none';
+  }
+
+  document.getElementById('product-image').src = product.ImgUrl;
+
+  // Set gallery images
+  const galleryContainer = document.getElementById('product-gallery');
+  galleryContainer.innerHTML = '';
+
+  if (product.galleryimg && Array.isArray(product.galleryimg)) {
+    product.galleryimg.forEach((imageSrc) => {
+      const thumb = document.createElement('img');
+      thumb.src = imageSrc;
+      thumb.className = "w-20 h-20 rounded-lg object-cover cursor-pointer border-2 border-transparent hover:border-[#7a1c1c] transition snap-start will-change-transform";
+      thumb.addEventListener('click', () => {
+        document.getElementById('product-image').src = imageSrc;
+      });
+      galleryContainer.appendChild(thumb);
     });
-    galleryContainer.appendChild(thumb);
-  });
-} else {
-  document.getElementById('product-name').textContent = "Product not found!";
+  } else {
+    document.getElementById('product-name').textContent = "Product not found!";
+  }
 }
-
-    }        
+     
 };
 
-// Detecting which page is loaded and render content accordingly
+
 if (document.getElementById('product-list')) {
     renderProductList();
 } else if (document.getElementById('product-name')) {
     renderProductDetails();
 }
 
-// Function to filter and display category-specific products
-const renderCategoryProducts = async (category) => {
+let categoryDropdownPopulated = false;
+const renderCategoryProducts = async (selectedCategory = '') => {
     try {
-        const products = await fetchProductData();
-        
-        // Get existing containers from the page
+        const products = await fetchProductData(); 
+
         const productContainer = document.getElementById('product-list');
         const paginationContainer = document.getElementById('pagination');
         const searchInput = document.getElementById('search-input');
+        const categoryDropdown = document.querySelector('.category-dropdown');
 
-        if (!productContainer || !paginationContainer) {
-            // console.error('Required containers not found on page');
-            return;
+        if (!productContainer || !paginationContainer || !categoryDropdown) return;
+
+        if (!categoryDropdownPopulated) {
+            categoryDropdown.innerHTML = '';
+            const defaultOption = document.createElement('option');
+            defaultOption.value = '';
+            defaultOption.textContent = 'All Categories';
+            categoryDropdown.appendChild(defaultOption);
+
+            const uniqueCategories = [...new Set(Object.values(products).map(p => p.Category).filter(Boolean))];
+            uniqueCategories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                option.classList.add('text-sm');
+                categoryDropdown.appendChild(option);
+            });
+
+            categoryDropdownPopulated = true;
+
+            categoryDropdown.addEventListener('change', () => {
+                const newCategory = categoryDropdown.value;
+                renderCategoryProducts(newCategory);
+            });
         }
 
         let currentPage = 1;
         const productsPerPage = 8;
-        let filteredProducts = Object.entries(products).filter(([id, product]) => {
-            return product.catlog && product.catlog.toLowerCase() === category.toLowerCase();
-        });
 
-        // console.log(`Found ${filteredProducts.length} products for category: ${category}`); // Debug log
+        let filteredProducts = Object.entries(products).filter(([_, product]) => {
+            return !selectedCategory || product.Category?.toLowerCase() === selectedCategory.toLowerCase();
+        });
 
         const renderPage = (page) => {
             productContainer.innerHTML = '';
@@ -205,24 +257,24 @@ const renderCategoryProducts = async (category) => {
                 productDiv.className = 'product-item1';
                 productDiv.innerHTML = `
                     <a href="product.html?id=${id}">
-                        <img src="${product.url}" alt="${product.name}">
+                        <img src="${product.ImgUrl}" alt="${product.name}">
                         <h3 class="titlename">${product.name}</h3>
-                        <p class="price">${product.price}</p>
+                        <p class="price">${product.price || ''}</p>
                     </a>
                 `;
                 productContainer.appendChild(productDiv);
             });
 
-            // Update pagination
             const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
             paginationContainer.innerHTML = '';
-            
+
             if (totalPages > 1) {
                 const prevButton = document.createElement('button');
                 prevButton.textContent = '← Previous';
                 prevButton.disabled = page === 1;
+                prevButton.className = 'pagination-button';
                 prevButton.addEventListener('click', () => {
-                    currentPage = Math.max(1, currentPage - 1);
+                    currentPage--;
                     renderPage(currentPage);
                 });
                 paginationContainer.appendChild(prevButton);
@@ -230,7 +282,8 @@ const renderCategoryProducts = async (category) => {
                 for (let i = 1; i <= totalPages; i++) {
                     const pageButton = document.createElement('button');
                     pageButton.textContent = i;
-                    pageButton.className = i === page ? 'active' : '';
+                    pageButton.className = 'pagination-button';
+                    if (i === page) pageButton.classList.add('active');
                     pageButton.addEventListener('click', () => {
                         currentPage = i;
                         renderPage(currentPage);
@@ -241,37 +294,38 @@ const renderCategoryProducts = async (category) => {
                 const nextButton = document.createElement('button');
                 nextButton.textContent = 'Next →';
                 nextButton.disabled = page === totalPages;
+                nextButton.className = 'pagination-button';
                 nextButton.addEventListener('click', () => {
-                    currentPage = Math.min(totalPages, currentPage + 1);
+                    currentPage++;
                     renderPage(currentPage);
                 });
                 paginationContainer.appendChild(nextButton);
             }
         };
 
-        // Search functionality
-        if (searchInput) {
+        if (searchInput && !searchInput.dataset.listenerAdded) {
             searchInput.addEventListener('input', () => {
-                const searchQuery = searchInput.value.toLowerCase();
-                filteredProducts = Object.entries(products).filter(([id, product]) => {
-                    return product.catlog && 
-                           product.catlog.toLowerCase() === category.toLowerCase() &&
-                           product.name.toLowerCase().includes(searchQuery);
+                const query = searchInput.value.toLowerCase();
+                filteredProducts = Object.entries(products).filter(([_, product]) => {
+                    const matchesCategory = !selectedCategory || product.Category?.toLowerCase() === selectedCategory.toLowerCase();
+                    const matchesName = product.name.toLowerCase().includes(query);
+                    return matchesCategory && matchesName;
                 });
                 currentPage = 1;
                 renderPage(currentPage);
             });
+            searchInput.dataset.listenerAdded = "true";
         }
 
         renderPage(currentPage);
+
     } catch (error) {
         console.error('Error rendering category products:', error);
     }
 };
 
-
-
 renderCategoryProducts();
+
 
 renderProductList();
 // Product Scroller
@@ -470,3 +524,5 @@ const swiperk = new Swiper(".exploreSwiper", {
     },
   });
   
+
+
