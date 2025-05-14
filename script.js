@@ -198,10 +198,14 @@ if (document.getElementById('product-list')) {
     renderProductDetails();
 }
 
+
+
 let categoryDropdownPopulated = false;
-const renderCategoryProducts = async (selectedCategory = '') => {
+let subcategoryDropdown;
+
+const renderCategoryProducts = async (selectedCategory = '', selectedSubcategory = '') => {
     try {
-        const products = await fetchProductData(); 
+        const products = await fetchProductData();
 
         const productContainer = document.getElementById('product-list');
         const paginationContainer = document.getElementById('pagination');
@@ -210,6 +214,15 @@ const renderCategoryProducts = async (selectedCategory = '') => {
 
         if (!productContainer || !paginationContainer || !categoryDropdown) return;
 
+        // Create or reference the subcategory dropdown
+        if (!subcategoryDropdown) {
+            subcategoryDropdown = document.createElement('select');
+            subcategoryDropdown.className = 'subcategory-dropdown h-10 p-2 mt-6 border rounded category-dropdown overflow-hidden'; // Added styles here
+            subcategoryDropdown.style.display = 'none';
+            categoryDropdown.parentNode.insertBefore(subcategoryDropdown, categoryDropdown.nextSibling);
+        }
+
+        // Populate category dropdown once
         if (!categoryDropdownPopulated) {
             categoryDropdown.innerHTML = '';
             const defaultOption = document.createElement('option');
@@ -230,16 +243,57 @@ const renderCategoryProducts = async (selectedCategory = '') => {
 
             categoryDropdown.addEventListener('change', () => {
                 const newCategory = categoryDropdown.value;
-                renderCategoryProducts(newCategory);
+                renderCategoryProducts(newCategory, ''); // Reset subcategory when category changes
             });
+        }
+
+        // Filter by selected category and subcategory
+        let filteredProducts = Object.entries(products).filter(([_, product]) => {
+            const categoryMatch = !selectedCategory || product.Category?.toLowerCase() === selectedCategory.toLowerCase();
+            const subcategoryMatch = !selectedSubcategory || product.SubCategory?.toLowerCase() === selectedSubcategory.toLowerCase();
+            return categoryMatch && subcategoryMatch;
+        });
+
+        // Handle subcategory dropdown population if category is selected
+        if (selectedCategory) {
+            const relatedSubcategories = [...new Set(Object.values(products)
+                .filter(p => p.Category?.toLowerCase() === selectedCategory.toLowerCase())
+                .map(p => p.SubCategory).filter(Boolean))];
+
+            if (relatedSubcategories.length > 0) {
+                subcategoryDropdown.style.display = 'block';
+                subcategoryDropdown.innerHTML = '';
+
+                // Add the default "All Subcategories" option
+                const defaultSubOption = document.createElement('option');
+                defaultSubOption.value = '';
+                defaultSubOption.textContent = 'All SubCategories';
+                subcategoryDropdown.appendChild(defaultSubOption);
+
+                // Add the available subcategory options
+                relatedSubcategories.forEach(sub => {
+                    const option = document.createElement('option');
+                    option.value = sub;
+                    option.textContent = sub;
+                    subcategoryDropdown.appendChild(option);
+                });
+
+                // Set the subcategory dropdown's selected value
+                subcategoryDropdown.value = selectedSubcategory || '';
+
+                // When subcategory is selected, update the products
+                subcategoryDropdown.onchange = () => {
+                    renderCategoryProducts(selectedCategory, subcategoryDropdown.value);
+                };
+            } else {
+                subcategoryDropdown.style.display = 'none';
+            }
+        } else {
+            subcategoryDropdown.style.display = 'none';
         }
 
         let currentPage = 1;
         const productsPerPage = 8;
-
-        let filteredProducts = Object.entries(products).filter(([_, product]) => {
-            return !selectedCategory || product.Category?.toLowerCase() === selectedCategory.toLowerCase();
-        });
 
         const renderPage = (page) => {
             productContainer.innerHTML = '';
@@ -308,8 +362,9 @@ const renderCategoryProducts = async (selectedCategory = '') => {
                 const query = searchInput.value.toLowerCase();
                 filteredProducts = Object.entries(products).filter(([_, product]) => {
                     const matchesCategory = !selectedCategory || product.Category?.toLowerCase() === selectedCategory.toLowerCase();
+                    const matchesSubCategory = !selectedSubcategory || product.SubCategory?.toLowerCase() === selectedSubcategory.toLowerCase();
                     const matchesName = product.name.toLowerCase().includes(query);
-                    return matchesCategory && matchesName;
+                    return matchesCategory && matchesSubCategory && matchesName;
                 });
                 currentPage = 1;
                 renderPage(currentPage);
@@ -524,5 +579,18 @@ const swiperk = new Swiper(".exploreSwiper", {
     },
   });
   
-
+  const swiperkd = new Swiper('.exploreSwiperhome', {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    speed: 800,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+  
+  
 

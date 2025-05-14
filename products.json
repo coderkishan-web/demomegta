@@ -861,7 +861,7 @@
       "cct": ["3000K", " 4000K", " 6500K"],
       "beam": [],
       "ProductCode": "",
-      "ImgUrl": "assets/products/22DEEPDOWNLIGHT/REMOVED.PNG",
+      "ImgUrl": "assets/products/22DEEPDOWNLIGHT/6.png",
       "description": "",
       "led": ["Bridgelux"],
       "maxlumen": "100Lm/W",
@@ -869,11 +869,11 @@
       "driver": ["Phillips", " Fulham", " Osram"],
       "housing": "Aluminium Die Casting",
      "galleryimg": [
-    "assets/products/22DEEPDOWNLIGHT/8w-deep-downlight-500x500.webp",
-    "assets/products/22DEEPDOWNLIGHT/12w-deep-downlight-1000x1000.webp",
-    "assets/products/22DEEPDOWNLIGHT/product-jpeg-500x500.webp",
-    "assets/products/22DEEPDOWNLIGHT/whatsapp-image-2023-03-13-at-2-52-20-pm-1--500x500.webp",
-    "assets/products/22DEEPDOWNLIGHT/whatsapp-image-2023-03-13-at-2-52-21-pm-500x500.webp"
+    "assets/products/22DEEPDOWNLIGHT/1.png",
+    "assets/products/22DEEPDOWNLIGHT/2.png",
+    "assets/products/22DEEPDOWNLIGHT/3.png",
+    "assets/products/22DEEPDOWNLIGHT/4.png",
+    "assets/products/22DEEPDOWNLIGHT/5.png"
 ],
         "ColourTemp":"",
         "Reflector": "",

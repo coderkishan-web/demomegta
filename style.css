@@ -4,6 +4,16 @@
 html{
     scroll-behavior: smooth;
 }
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroller {
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none;     /* For Firefox */
+}
+
   body {
     position: relative;
     
@@ -12,7 +22,7 @@ html{
     background-image: linear-gradient(to bottom, #110116 0%, #023f68 100%);
   
   }
-  
+ 
   :root {
     --sewer-dark: #3a392f;
     --sewer-light: #4a4a3d;
@@ -449,15 +459,14 @@ html{
   
   /* Search Bar */
   #search-input {
-    width: 50%;
-    padding: 10px;
-    margin: 20px auto;
-    display: block;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 10px;
+  margin: 20px auto;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   #search-input:focus {

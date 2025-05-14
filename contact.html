@@ -141,12 +141,12 @@
       <div class="space-y-6" data-aos="fade-right">
         <!-- Google Map -->
         <div class="relative border-2 border-black-300 rounded-lg overflow-hidden shadow-lg">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.6969829968866!2d72.87482757536415!3d19.412071241335944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a8b5daa90433%3A0x4b99d482ed7da747!2sSQUARE%20INDUSTRIAL%20PARK!5e1!3m2!1sen!2sin!4v1744097845473!5m2!1sen!2sin" class="w-full h-64" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9237707467078!2d72.8693953753642!3d19.41569934122015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a8d4c8efb4bd%3A0xe106c62d29207b3b!2sMega-Tech!5e0!3m2!1sen!2sin!4v1747207588007!5m2!1sen!2sin" class="w-full h-64" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div class="absolute bottom-4 left-4 bg-white p-4 rounded-lg shadow-md flex items-center">
             <i class="fas fa-map-marker-alt text-red-500 text-xl"></i>
             <div class="ml-3">
               <h3 class="font-bold">Office Address</h3>
-              <p class="text-gray-600 text-sm">101/103, 2nd Floor Nagdevi Street, Mumbai</p>
+              <p class="text-gray-600 text-sm">Megatech, Gala no 302, Sapphire Ind. Estate, Mumbai</p>
             </div>
           </div>
         </div>
@@ -184,10 +184,16 @@
           </div>
           <input type="email" placeholder="you@company.com" class="w-full p-3 border border-gray-200 rounded-lg" required>
           <input type="tel" placeholder="+1 (555) 000-0000" class="w-full p-3 border border-gray-200 rounded-lg" required>
-          <select class="w-full p-3 border border-gray-200 rounded-lg" required>
-            <option selected>Select date</option>
-            <option>December - 02 - 2022</option>
-          </select>
+          <label for="date" class="text-gray-600 text-sm">Select a date:</label>
+<input
+ class="w-full p-3 border border-gray-200 rounded-lg"
+  type="date"
+  id="date"
+  name="date"
+  value="2025-05-13"      
+  min="2020-01-01"         
+  max="2030-12-31"  
+>
           <textarea placeholder="Message" class="w-full p-3 border border-gray-200 rounded-lg h-32" required></textarea>
           <button type="submit" class="w-full pagination-button text-white py-3 rounded-lg">Send Message</button>
         </form>
@@ -198,63 +204,6 @@
 
      
       
-
-      <div
-        class="bg-gray-100 py-6 px-6 w-full flex flex-wrap justify-evenly items-center space-y-4 sm:space-y-0"
-      >
-        <!-- High Quality -->
-        <div
-          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
-          data-aos="fade-up"
-        >
-          <i class="fas fa-trophy text-red-900 text-4xl"></i>
-          <div>
-            <h3 class="text-xl font-semibold text-gray-900">High Quality</h3>
-            <p class="text-gray-500 text-sm">Crafted from top materials</p>
-          </div>
-        </div>
-
-        <!-- Warranty Protection -->
-        <div
-          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <i class="fas fa-shield-alt text-red-900 text-4xl"></i>
-          <div>
-            <h3 class="text-xl font-semibold text-gray-900">
-              Warranty Protection
-            </h3>
-            <p class="text-gray-500 text-sm">Over 2 years</p>
-          </div>
-        </div>
-
-        <!-- Free Shipping -->
-        <div
-          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <i class="fas fa-truck text-red-900 text-4xl"></i>
-          <div>
-            <h3 class="text-xl font-semibold text-gray-900">Free Shipping</h3>
-            <p class="text-gray-500 text-sm">Order over 1500</p>
-          </div>
-        </div>
-
-        <!-- 24/7 Support -->
-        <div
-          class="flex items-center space-x-4 border hover:border-red-800 p-10 transition duration-300 hover:shadow-lg"
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
-          <i class="fas fa-headset text-red-900 text-4xl"></i>
-          <div>
-            <h3 class="text-xl font-semibold text-gray-900">24 / 7 Support</h3>
-            <p class="text-gray-500 text-sm">Dedicated support</p>
-          </div>
-        </div>
-      </div>
 
        <!-- footer starts -->
 	  <footer class="bg-[#FFFFFF] py-18 px-6 sm:px-10 lg:px-20 relative overflow-hidden font-[Poppins]">
@@ -324,7 +273,7 @@
         <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
        <p class="text-sm text-black font-bold">
-  © 2024 Megatech. Designed and developed by 
+  © 2025 Megatech. Designed and developed by 
   <a href="https://benzenecorp.com/" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">BenzeneCorp</a>. All rights reserved.
 </p>
 
